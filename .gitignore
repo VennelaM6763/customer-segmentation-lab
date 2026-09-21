@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/raw/*
+!data/raw/.gitkeep
+.mpl-cache/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+.ruff_cache/
