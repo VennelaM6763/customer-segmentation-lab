@@ -1,0 +1,7591 @@
+{
+  "project": "segments",
+  "source": "UCI Online Retail",
+  "sha256": "43465a06f2ccf7c8b5bd2892bc7defb52f97487934fe93b16ae4c3936424676d",
+  "audit": {
+    "raw_rows": 541909,
+    "duplicate_rows": 5268,
+    "cancellation_or_negative_rows": 10587,
+    "nonpositive_or_invalid_rows": 1176,
+    "clean_rows": 524878,
+    "missing_customer_rows_retained": 132186
+  },
+  "snapshot": "2011-12-10",
+  "customers": 4338,
+  "selected_k": 2,
+  "features": [
+    "recency",
+    "frequency",
+    "monetary"
+  ],
+  "mean": [
+    3.8571923719820584,
+    1.3455823418447785,
+    6.588562276128542
+  ],
+  "scale": [
+    1.3069094144256634,
+    0.6830249359732609,
+    1.258292861571971
+  ],
+  "models": {
+    "2": {
+      "centers": [
+        [
+          -0.8068562192687627,
+          0.9666245133570214,
+          0.9080761576264448
+        ],
+        [
+          0.5045496552864615,
+          -0.6044572172322471,
+          -0.5678453005165
+        ]
+      ],
+      "profiles": [
+        {
+          "id": 0,
+          "customers": 1668,
+          "share": 0.38450899031811897,
+          "recency": 17.0,
+          "frequency": 6.0,
+          "monetary": 2058.17,
+          "total_sales": 7565611.801
+        },
+        {
+          "id": 1,
+          "customers": 2670,
+          "share": 0.6154910096818811,
+          "recency": 96.0,
+          "frequency": 1.0,
+          "monetary": 362.01,
+          "total_sales": 1321597.093
+        }
+      ]
+    },
+    "3": {
+      "centers": [
+        [
+          -0.3604160685555875,
+          0.09725034141757967,
+          0.21607491883382857
+        ],
+        [
+          0.7748466357150399,
+          -0.7543561800652356,
+          -0.769267539715544
+        ],
+        [
+          -1.109509216370076,
+          1.6446890281869158,
+          1.417007758954131
+        ]
+      ],
+      "profiles": [
+        {
+          "id": 0,
+          "customers": 1700,
+          "share": 0.39188566159520516,
+          "recency": 30.0,
+          "frequency": 3.0,
+          "monetary": 974.53,
+          "total_sales": 2137128.203
+        },
+        {
+          "id": 1,
+          "customers": 1876,
+          "share": 0.43245735361917936,
+          "recency": 159.5,
+          "frequency": 1.0,
+          "monetary": 297.35,
+          "total_sales": 681838.131
+        },
+        {
+          "id": 2,
+          "customers": 762,
+          "share": 0.17565698478561548,
+          "recency": 10.0,
+          "frequency": 10.0,
+          "monetary": 3718.225,
+          "total_sales": 6068242.5600000005
+        }
+      ]
+    },
+    "4": {
+      "centers": [
+        [
+          0.0888028115549405,
+          0.33523713714334946,
+          0.5238699903501814
+        ],
+        [
+          -0.7390838913717602,
+          -0.4557204335031227,
+          -0.4828472057908326
+        ],
+        [
+          -1.2507044708200858,
+          1.6357325976747465,
+          1.3829567294912857
+        ],
+        [
+          0.9546027330104044,
+          -0.7702099936305735,
+          -0.7788318319447423
+        ]
+      ],
+      "profiles": [
+        {
+          "id": 0,
+          "customers": 1177,
+          "share": 0.2713231904103273,
+          "recency": 54.0,
+          "frequency": 4.0,
+          "monetary": 1337.72,
+          "total_sales": 2110874.603
+        },
+        {
+          "id": 1,
+          "customers": 889,
+          "share": 0.2049331489165514,
+          "recency": 20.0,
+          "frequency": 2.0,
+          "monetary": 418.4,
+          "total_sales": 438524.81999999995
+        },
+        {
+          "id": 2,
+          "customers": 731,
+          "share": 0.16851083448593823,
+          "recency": 9.0,
+          "frequency": 10.0,
+          "monetary": 3653.75,
+          "total_sales": 5792418.42
+        },
+        {
+          "id": 3,
+          "customers": 1541,
+          "share": 0.35523282618718305,
+          "recency": 186.0,
+          "frequency": 1.0,
+          "monetary": 300.95,
+          "total_sales": 545391.051
+        }
+      ]
+    },
+    "5": {
+      "centers": [
+        [
+          -0.878932568462097,
+          0.751221435190995,
+          0.7196763330522282
+        ],
+        [
+          1.062511706711819,
+          -0.8379147082061594,
+          -0.9327728628160284
+        ],
+        [
+          -1.3057129693939558,
+          2.2721539278598217,
+          1.8579770084258207
+        ],
+        [
+          -0.52396165915641,
+          -0.6129829742803437,
+          -0.6434683876573712
+        ],
+        [
+          0.4943581454168585,
+          0.0022620095417139347,
+          0.3096426772825797
+        ]
+      ],
+      "profiles": [
+        {
+          "id": 0,
+          "customers": 960,
+          "share": 0.22130013831258644,
+          "recency": 16.0,
+          "frequency": 5.0,
+          "monetary": 1803.7350000000001,
+          "total_sales": 2067897.34
+        },
+        {
+          "id": 1,
+          "customers": 1167,
+          "share": 0.2690179806362379,
+          "recency": 216.0,
+          "frequency": 1.0,
+          "monetary": 241.62,
+          "total_sales": 319155.671
+        },
+        {
+          "id": 2,
+          "customers": 344,
+          "share": 0.0792992162286768,
+          "recency": 8.0,
+          "frequency": 15.0,
+          "monetary": 6121.22,
+          "total_sales": 4722014.05
+        },
+        {
+          "id": 3,
+          "customers": 859,
+          "share": 0.19801751959428307,
+          "recency": 25.0,
+          "frequency": 1.0,
+          "monetary": 350.9,
+          "total_sales": 330610.94999999995
+        },
+        {
+          "id": 4,
+          "customers": 1008,
+          "share": 0.23236514522821577,
+          "recency": 82.0,
+          "frequency": 3.0,
+          "monetary": 1001.35,
+          "total_sales": 1447530.883
+        }
+      ]
+    },
+    "6": {
+      "centers": [
+        [
+          1.1622392223057534,
+          -0.8469861496873395,
+          -0.9705499546089762
+        ],
+        [
+          -1.2250696349797685,
+          0.38271595225163313,
+          0.36597110790465776
+        ],
+        [
+          0.5370905118741395,
+          -0.13544948456003472,
+          0.19923194432733857
+        ],
+        [
+          -0.2561368598053348,
+          1.029254190626543,
+          1.0244388244430471
+        ],
+        [
+          -0.31287244235793304,
+          -0.7145447995110787,
+          -0.7692945871280754
+        ],
+        [
+          -1.5055194075734903,
+          2.3423613063644106,
+          1.8959286764668166
+        ]
+      ],
+      "profiles": [
+        {
+          "id": 0,
+          "customers": 993,
+          "share": 0.2289073305670816,
+          "recency": 237.0,
+          "frequency": 1.0,
+          "monetary": 231.10000000000002,
+          "total_sales": 256724.11
+        },
+        {
+          "id": 1,
+          "customers": 652,
+          "share": 0.15029967727063162,
+          "recency": 9.0,
+          "frequency": 4.0,
+          "monetary": 1130.35,
+          "total_sales": 886168.91
+        },
+        {
+          "id": 2,
+          "customers": 939,
+          "share": 0.21645919778699863,
+          "recency": 89.0,
+          "frequency": 3.0,
+          "monetary": 880.85,
+          "total_sales": 1094001.483
+        },
+        {
+          "id": 3,
+          "customers": 614,
+          "share": 0.14153988012909174,
+          "recency": 32.0,
+          "frequency": 7.0,
+          "monetary": 2586.3999999999996,
+          "total_sales": 1958969.9300000002
+        },
+        {
+          "id": 4,
+          "customers": 845,
+          "share": 0.19479022591055786,
+          "recency": 33.0,
+          "frequency": 1.0,
+          "monetary": 302.2,
+          "total_sales": 272414.071
+        },
+        {
+          "id": 5,
+          "customers": 295,
+          "share": 0.06800368833563854,
+          "recency": 5.0,
+          "frequency": 17.0,
+          "monetary": 6479.4,
+          "total_sales": 4418930.390000001
+        }
+      ]
+    }
+  },
+  "comparisons": [
+    {
+      "k": 2,
+      "silhouette": 0.4251876089244755,
+      "seed_stability_ari": 1.0,
+      "inertia": 6476.506937053552
+    },
+    {
+      "k": 3,
+      "silhouette": 0.329678829867433,
+      "seed_stability_ari": 0.989647577287723,
+      "inertia": 4858.078487594671
+    },
+    {
+      "k": 4,
+      "silhouette": 0.33021277287195977,
+      "seed_stability_ari": 0.9558966572410037,
+      "inertia": 3925.274472672854
+    },
+    {
+      "k": 5,
+      "silhouette": 0.3196949670376159,
+      "seed_stability_ari": 0.9963209693288203,
+      "inertia": 3269.0747590373144
+    },
+    {
+      "k": 6,
+      "silhouette": 0.3185322270556646,
+      "seed_stability_ari": 0.9456695756202319,
+      "inertia": 2840.653969257967
+    }
+  ],
+  "points": [
+    {
+      "recency": 54,
+      "frequency": 1,
+      "monetary": 131.94,
+      "cluster": 1
+    },
+    {
+      "recency": 207,
+      "frequency": 2,
+      "monetary": 477.79,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 2,
+      "monetary": 1054.73,
+      "cluster": 0
+    },
+    {
+      "recency": 8,
+      "frequency": 4,
+      "monetary": 1313.1,
+      "cluster": 0
+    },
+    {
+      "recency": 111,
+      "frequency": 1,
+      "monetary": 1432.0,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 3,
+      "monetary": 1071.73,
+      "cluster": 0
+    },
+    {
+      "recency": 354,
+      "frequency": 1,
+      "monetary": 383.7,
+      "cluster": 1
+    },
+    {
+      "recency": 255,
+      "frequency": 1,
+      "monetary": 229.33,
+      "cluster": 1
+    },
+    {
+      "recency": 94,
+      "frequency": 2,
+      "monetary": 982.07,
+      "cluster": 1
+    },
+    {
+      "recency": 197,
+      "frequency": 1,
+      "monetary": 559.87,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 7,
+      "monetary": 2533.42,
+      "cluster": 0
+    },
+    {
+      "recency": 39,
+      "frequency": 63,
+      "monetary": 80850.84,
+      "cluster": 0
+    },
+    {
+      "recency": 34,
+      "frequency": 3,
+      "monetary": 1122.63,
+      "cluster": 0
+    },
+    {
+      "recency": 66,
+      "frequency": 1,
+      "monetary": 93.82,
+      "cluster": 1
+    },
+    {
+      "recency": 25,
+      "frequency": 2,
+      "monetary": 2004.3,
+      "cluster": 0
+    },
+    {
+      "recency": 8,
+      "frequency": 5,
+      "monetary": 2044.87,
+      "cluster": 0
+    },
+    {
+      "recency": 219,
+      "frequency": 2,
+      "monetary": 495.77,
+      "cluster": 1
+    },
+    {
+      "recency": 37,
+      "frequency": 6,
+      "monetary": 1869.82,
+      "cluster": 0
+    },
+    {
+      "recency": 262,
+      "frequency": 1,
+      "monetary": 1542.08,
+      "cluster": 1
+    },
+    {
+      "recency": 206,
+      "frequency": 1,
+      "monetary": 157.9,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 17,
+      "monetary": 10504.49,
+      "cluster": 0
+    },
+    {
+      "recency": 83,
+      "frequency": 3,
+      "monetary": 3502.32,
+      "cluster": 0
+    },
+    {
+      "recency": 36,
+      "frequency": 2,
+      "monetary": 285.89,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 8,
+      "monetary": 2463.05,
+      "cluster": 0
+    },
+    {
+      "recency": 135,
+      "frequency": 3,
+      "monetary": 2515.84,
+      "cluster": 1
+    },
+    {
+      "recency": 312,
+      "frequency": 1,
+      "monetary": 325.75,
+      "cluster": 1
+    },
+    {
+      "recency": 29,
+      "frequency": 4,
+      "monetary": 3281.63,
+      "cluster": 0
+    },
+    {
+      "recency": 30,
+      "frequency": 1,
+      "monetary": 439.66,
+      "cluster": 1
+    },
+    {
+      "recency": 32,
+      "frequency": 6,
+      "monetary": 2656.13,
+      "cluster": 0
+    },
+    {
+      "recency": 68,
+      "frequency": 1,
+      "monetary": 415.2,
+      "cluster": 1
+    },
+    {
+      "recency": 166,
+      "frequency": 2,
+      "monetary": 427.64,
+      "cluster": 1
+    },
+    {
+      "recency": 121,
+      "frequency": 2,
+      "monetary": 1021.58,
+      "cluster": 1
+    },
+    {
+      "recency": 41,
+      "frequency": 2,
+      "monetary": 541.53,
+      "cluster": 1
+    },
+    {
+      "recency": 78,
+      "frequency": 1,
+      "monetary": 344.33,
+      "cluster": 1
+    },
+    {
+      "recency": 30,
+      "frequency": 2,
+      "monetary": 183.44,
+      "cluster": 1
+    },
+    {
+      "recency": 67,
+      "frequency": 11,
+      "monetary": 1980.57,
+      "cluster": 0
+    },
+    {
+      "recency": 2,
+      "frequency": 30,
+      "monetary": 18641.01,
+      "cluster": 0
+    },
+    {
+      "recency": 88,
+      "frequency": 5,
+      "monetary": 1236.54,
+      "cluster": 0
+    },
+    {
+      "recency": 22,
+      "frequency": 2,
+      "monetary": 1160.07,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 8,
+      "monetary": 2340.84,
+      "cluster": 0
+    },
+    {
+      "recency": 2,
+      "frequency": 11,
+      "monetary": 4757.16,
+      "cluster": 0
+    },
+    {
+      "recency": 43,
+      "frequency": 1,
+      "monetary": 318.15,
+      "cluster": 1
+    },
+    {
+      "recency": 30,
+      "frequency": 6,
+      "monetary": 881.29,
+      "cluster": 0
+    },
+    {
+      "recency": 267,
+      "frequency": 1,
+      "monetary": 183.6,
+      "cluster": 1
+    },
+    {
+      "recency": 47,
+      "frequency": 3,
+      "monetary": 1421.61,
+      "cluster": 0
+    },
+    {
+      "recency": 369,
+      "frequency": 1,
+      "monetary": 375.69,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 2,
+      "monetary": 302.1,
+      "cluster": 1
+    },
+    {
+      "recency": 93,
+      "frequency": 2,
+      "monetary": 877.44,
+      "cluster": 1
+    },
+    {
+      "recency": 155,
+      "frequency": 2,
+      "monetary": 216.21,
+      "cluster": 1
+    },
+    {
+      "recency": 43,
+      "frequency": 5,
+      "monetary": 2053.02,
+      "cluster": 0
+    },
+    {
+      "recency": 214,
+      "frequency": 2,
+      "monetary": 596.85,
+      "cluster": 1
+    },
+    {
+      "recency": 33,
+      "frequency": 3,
+      "monetary": 1266.97,
+      "cluster": 0
+    },
+    {
+      "recency": 22,
+      "frequency": 3,
+      "monetary": 468.41,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 2,
+      "monetary": 221.27,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 4,
+      "monetary": 1791.56,
+      "cluster": 0
+    },
+    {
+      "recency": 284,
+      "frequency": 1,
+      "monetary": 204.5,
+      "cluster": 1
+    },
+    {
+      "recency": 66,
+      "frequency": 2,
+      "monetary": 1025.44,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 16,
+      "monetary": 9227.82,
+      "cluster": 0
+    },
+    {
+      "recency": 1,
+      "frequency": 3,
+      "monetary": 1316.66,
+      "cluster": 0
+    },
+    {
+      "recency": 2,
+      "frequency": 4,
+      "monetary": 2027.5,
+      "cluster": 0
+    },
+    {
+      "recency": 65,
+      "frequency": 2,
+      "monetary": 388.25,
+      "cluster": 1
+    },
+    {
+      "recency": 138,
+      "frequency": 1,
+      "monetary": 191.95,
+      "cluster": 1
+    },
+    {
+      "recency": 46,
+      "frequency": 3,
+      "monetary": 1095.08,
+      "cluster": 1
+    },
+    {
+      "recency": 27,
+      "frequency": 3,
+      "monetary": 501.03,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 10,
+      "monetary": 2248.99,
+      "cluster": 0
+    },
+    {
+      "recency": 361,
+      "frequency": 2,
+      "monetary": 365.45,
+      "cluster": 1
+    },
+    {
+      "recency": 43,
+      "frequency": 3,
+      "monetary": 1842.14,
+      "cluster": 0
+    },
+    {
+      "recency": 3,
+      "frequency": 55,
+      "monetary": 8507.13,
+      "cluster": 0
+    },
+    {
+      "recency": 52,
+      "frequency": 6,
+      "monetary": 3506.54,
+      "cluster": 0
+    },
+    {
+      "recency": 33,
+      "frequency": 1,
+      "monetary": 712.78,
+      "cluster": 1
+    },
+    {
+      "recency": 52,
+      "frequency": 2,
+      "monetary": 467.51,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 15,
+      "monetary": 8476.57,
+      "cluster": 0
+    },
+    {
+      "recency": 87,
+      "frequency": 1,
+      "monetary": 351.65,
+      "cluster": 1
+    },
+    {
+      "recency": 243,
+      "frequency": 1,
+      "monetary": 185.65,
+      "cluster": 1
+    },
+    {
+      "recency": 19,
+      "frequency": 2,
+      "monetary": 679.45,
+      "cluster": 1
+    },
+    {
+      "recency": 302,
+      "frequency": 1,
+      "monetary": 530.15,
+      "cluster": 1
+    },
+    {
+      "recency": 43,
+      "frequency": 5,
+      "monetary": 5059.32,
+      "cluster": 0
+    },
+    {
+      "recency": 8,
+      "frequency": 6,
+      "monetary": 1429.64,
+      "cluster": 0
+    },
+    {
+      "recency": 80,
+      "frequency": 2,
+      "monetary": 701.23,
+      "cluster": 1
+    },
+    {
+      "recency": 79,
+      "frequency": 1,
+      "monetary": 301.72,
+      "cluster": 1
+    },
+    {
+      "recency": 38,
+      "frequency": 2,
+      "monetary": 380.39,
+      "cluster": 1
+    },
+    {
+      "recency": 23,
+      "frequency": 2,
+      "monetary": 287.62,
+      "cluster": 1
+    },
+    {
+      "recency": 135,
+      "frequency": 2,
+      "monetary": 529.73,
+      "cluster": 1
+    },
+    {
+      "recency": 372,
+      "frequency": 1,
+      "monetary": 427.8,
+      "cluster": 1
+    },
+    {
+      "recency": 31,
+      "frequency": 1,
+      "monetary": 349.83,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 22,
+      "monetary": 26626.8,
+      "cluster": 0
+    },
+    {
+      "recency": 248,
+      "frequency": 1,
+      "monetary": 123.1,
+      "cluster": 1
+    },
+    {
+      "recency": 134,
+      "frequency": 1,
+      "monetary": 337.44,
+      "cluster": 1
+    },
+    {
+      "recency": 48,
+      "frequency": 3,
+      "monetary": 478.09,
+      "cluster": 1
+    },
+    {
+      "recency": 15,
+      "frequency": 5,
+      "monetary": 1551.78,
+      "cluster": 0
+    },
+    {
+      "recency": 34,
+      "frequency": 1,
+      "monetary": 210.31,
+      "cluster": 1
+    },
+    {
+      "recency": 114,
+      "frequency": 4,
+      "monetary": 2207.4,
+      "cluster": 0
+    },
+    {
+      "recency": 255,
+      "frequency": 2,
+      "monetary": 770.12,
+      "cluster": 1
+    },
+    {
+      "recency": 73,
+      "frequency": 2,
+      "monetary": 567.36,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 6,
+      "monetary": 1335.19,
+      "cluster": 0
+    },
+    {
+      "recency": 144,
+      "frequency": 2,
+      "monetary": 343.23,
+      "cluster": 1
+    },
+    {
+      "recency": 26,
+      "frequency": 2,
+      "monetary": 595.42,
+      "cluster": 1
+    },
+    {
+      "recency": 16,
+      "frequency": 28,
+      "monetary": 6295.37,
+      "cluster": 0
+    },
+    {
+      "recency": 219,
+      "frequency": 4,
+      "monetary": 605.8,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 3,
+      "monetary": 2081.9,
+      "cluster": 0
+    },
+    {
+      "recency": 29,
+      "frequency": 13,
+      "monetary": 4396.13,
+      "cluster": 0
+    },
+    {
+      "recency": 37,
+      "frequency": 3,
+      "monetary": 1290.53,
+      "cluster": 0
+    },
+    {
+      "recency": 11,
+      "frequency": 1,
+      "monetary": 213.96,
+      "cluster": 1
+    },
+    {
+      "recency": 60,
+      "frequency": 6,
+      "monetary": 3160.0,
+      "cluster": 0
+    },
+    {
+      "recency": 25,
+      "frequency": 1,
+      "monetary": 376.72,
+      "cluster": 1
+    },
+    {
+      "recency": 227,
+      "frequency": 2,
+      "monetary": 1998.0,
+      "cluster": 1
+    },
+    {
+      "recency": 33,
+      "frequency": 2,
+      "monetary": 714.96,
+      "cluster": 1
+    },
+    {
+      "recency": 241,
+      "frequency": 1,
+      "monetary": 623.5,
+      "cluster": 1
+    },
+    {
+      "recency": 74,
+      "frequency": 5,
+      "monetary": 1674.69,
+      "cluster": 0
+    },
+    {
+      "recency": 5,
+      "frequency": 9,
+      "monetary": 1002.9,
+      "cluster": 0
+    },
+    {
+      "recency": 37,
+      "frequency": 1,
+      "monetary": 372.7,
+      "cluster": 1
+    },
+    {
+      "recency": 85,
+      "frequency": 2,
+      "monetary": 777.53,
+      "cluster": 1
+    },
+    {
+      "recency": 29,
+      "frequency": 2,
+      "monetary": 333.48,
+      "cluster": 1
+    },
+    {
+      "recency": 190,
+      "frequency": 1,
+      "monetary": 349.1,
+      "cluster": 1
+    },
+    {
+      "recency": 110,
+      "frequency": 4,
+      "monetary": 1116.68,
+      "cluster": 1
+    },
+    {
+      "recency": 327,
+      "frequency": 1,
+      "monetary": 201.16,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 4,
+      "monetary": 720.86,
+      "cluster": 0
+    },
+    {
+      "recency": 8,
+      "frequency": 10,
+      "monetary": 6761.34,
+      "cluster": 0
+    },
+    {
+      "recency": 65,
+      "frequency": 5,
+      "monetary": 3099.72,
+      "cluster": 0
+    },
+    {
+      "recency": 72,
+      "frequency": 1,
+      "monetary": 743.53,
+      "cluster": 1
+    },
+    {
+      "recency": 313,
+      "frequency": 2,
+      "monetary": 580.05,
+      "cluster": 1
+    },
+    {
+      "recency": 16,
+      "frequency": 4,
+      "monetary": 519.69,
+      "cluster": 0
+    },
+    {
+      "recency": 11,
+      "frequency": 10,
+      "monetary": 3466.28,
+      "cluster": 0
+    },
+    {
+      "recency": 4,
+      "frequency": 4,
+      "monetary": 1839.3,
+      "cluster": 0
+    },
+    {
+      "recency": 82,
+      "frequency": 1,
+      "monetary": 345.0,
+      "cluster": 1
+    },
+    {
+      "recency": 16,
+      "frequency": 4,
+      "monetary": 1504.27,
+      "cluster": 0
+    },
+    {
+      "recency": 34,
+      "frequency": 1,
+      "monetary": 134.46,
+      "cluster": 1
+    },
+    {
+      "recency": 80,
+      "frequency": 2,
+      "monetary": 797.71,
+      "cluster": 1
+    },
+    {
+      "recency": 60,
+      "frequency": 3,
+      "monetary": 2128.42,
+      "cluster": 0
+    },
+    {
+      "recency": 13,
+      "frequency": 4,
+      "monetary": 859.71,
+      "cluster": 0
+    },
+    {
+      "recency": 109,
+      "frequency": 3,
+      "monetary": 422.47,
+      "cluster": 1
+    },
+    {
+      "recency": 34,
+      "frequency": 6,
+      "monetary": 1449.32,
+      "cluster": 0
+    },
+    {
+      "recency": 265,
+      "frequency": 1,
+      "monetary": 138.68,
+      "cluster": 1
+    },
+    {
+      "recency": 115,
+      "frequency": 2,
+      "monetary": 605.06,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 4,
+      "monetary": 1353.74,
+      "cluster": 0
+    },
+    {
+      "recency": 54,
+      "frequency": 4,
+      "monetary": 1344.78,
+      "cluster": 0
+    },
+    {
+      "recency": 81,
+      "frequency": 1,
+      "monetary": 242.35,
+      "cluster": 1
+    },
+    {
+      "recency": 16,
+      "frequency": 3,
+      "monetary": 656.69,
+      "cluster": 0
+    },
+    {
+      "recency": 10,
+      "frequency": 5,
+      "monetary": 1072.36,
+      "cluster": 0
+    },
+    {
+      "recency": 54,
+      "frequency": 5,
+      "monetary": 2092.66,
+      "cluster": 0
+    },
+    {
+      "recency": 57,
+      "frequency": 5,
+      "monetary": 2607.61,
+      "cluster": 0
+    },
+    {
+      "recency": 115,
+      "frequency": 3,
+      "monetary": 817.86,
+      "cluster": 1
+    },
+    {
+      "recency": 36,
+      "frequency": 4,
+      "monetary": 916.98,
+      "cluster": 0
+    },
+    {
+      "recency": 52,
+      "frequency": 4,
+      "monetary": 752.77,
+      "cluster": 1
+    },
+    {
+      "recency": 192,
+      "frequency": 1,
+      "monetary": 346.98,
+      "cluster": 1
+    },
+    {
+      "recency": 92,
+      "frequency": 2,
+      "monetary": 716.35,
+      "cluster": 1
+    },
+    {
+      "recency": 206,
+      "frequency": 2,
+      "monetary": 483.8,
+      "cluster": 1
+    },
+    {
+      "recency": 29,
+      "frequency": 7,
+      "monetary": 1582.8,
+      "cluster": 0
+    },
+    {
+      "recency": 50,
+      "frequency": 10,
+      "monetary": 4020.04,
+      "cluster": 0
+    },
+    {
+      "recency": 2,
+      "frequency": 13,
+      "monetary": 5855.57,
+      "cluster": 0
+    },
+    {
+      "recency": 3,
+      "frequency": 7,
+      "monetary": 1341.6,
+      "cluster": 0
+    },
+    {
+      "recency": 6,
+      "frequency": 5,
+      "monetary": 1987.33,
+      "cluster": 0
+    },
+    {
+      "recency": 5,
+      "frequency": 2,
+      "monetary": 271.19,
+      "cluster": 1
+    },
+    {
+      "recency": 327,
+      "frequency": 1,
+      "monetary": 216.07,
+      "cluster": 1
+    },
+    {
+      "recency": 32,
+      "frequency": 5,
+      "monetary": 2647.59,
+      "cluster": 0
+    },
+    {
+      "recency": 255,
+      "frequency": 1,
+      "monetary": 56.4,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 2,
+      "monetary": 869.77,
+      "cluster": 0
+    },
+    {
+      "recency": 30,
+      "frequency": 7,
+      "monetary": 2213.13,
+      "cluster": 0
+    },
+    {
+      "recency": 75,
+      "frequency": 2,
+      "monetary": 551.04,
+      "cluster": 1
+    },
+    {
+      "recency": 51,
+      "frequency": 12,
+      "monetary": 5049.95,
+      "cluster": 0
+    },
+    {
+      "recency": 93,
+      "frequency": 3,
+      "monetary": 379.35,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 4,
+      "monetary": 650.43,
+      "cluster": 0
+    },
+    {
+      "recency": 57,
+      "frequency": 4,
+      "monetary": 783.97,
+      "cluster": 1
+    },
+    {
+      "recency": 90,
+      "frequency": 1,
+      "monetary": 103.3,
+      "cluster": 1
+    },
+    {
+      "recency": 6,
+      "frequency": 4,
+      "monetary": 1031.41,
+      "cluster": 0
+    },
+    {
+      "recency": 73,
+      "frequency": 4,
+      "monetary": 2232.49,
+      "cluster": 0
+    },
+    {
+      "recency": 8,
+      "frequency": 2,
+      "monetary": 497.56,
+      "cluster": 1
+    },
+    {
+      "recency": 174,
+      "frequency": 2,
+      "monetary": 513.7,
+      "cluster": 1
+    },
+    {
+      "recency": 1,
+      "frequency": 11,
+      "monetary": 4462.68,
+      "cluster": 0
+    },
+    {
+      "recency": 320,
+      "frequency": 1,
+      "monetary": 206.98,
+      "cluster": 1
+    },
+    {
+      "recency": 51,
+      "frequency": 3,
+      "monetary": 903.9,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 3,
+      "monetary": 6748.8,
+      "cluster": 0
+    },
+    {
+      "recency": 82,
+      "frequency": 1,
+      "monetary": 1043.1,
+      "cluster": 1
+    },
+    {
+      "recency": 71,
+      "frequency": 3,
+      "monetary": 1519.42,
+      "cluster": 1
+    },
+    {
+      "recency": 265,
+      "frequency": 1,
+      "monetary": 172.9,
+      "cluster": 1
+    },
+    {
+      "recency": 267,
+      "frequency": 2,
+      "monetary": 409.98,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 1,
+      "monetary": 279.05,
+      "cluster": 1
+    },
+    {
+      "recency": 17,
+      "frequency": 4,
+      "monetary": 1945.33,
+      "cluster": 0
+    },
+    {
+      "recency": 16,
+      "frequency": 1,
+      "monetary": 271.2,
+      "cluster": 1
+    },
+    {
+      "recency": 219,
+      "frequency": 1,
+      "monetary": 265.2,
+      "cluster": 1
+    },
+    {
+      "recency": 319,
+      "frequency": 1,
+      "monetary": 302.58,
+      "cluster": 1
+    },
+    {
+      "recency": 46,
+      "frequency": 1,
+      "monetary": 178.34,
+      "cluster": 1
+    },
+    {
+      "recency": 365,
+      "frequency": 1,
+      "monetary": 256.32,
+      "cluster": 1
+    },
+    {
+      "recency": 289,
+      "frequency": 3,
+      "monetary": 702.0,
+      "cluster": 1
+    },
+    {
+      "recency": 117,
+      "frequency": 1,
+      "monetary": 1706.88,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 3,
+      "monetary": 4628.75,
+      "cluster": 0
+    },
+    {
+      "recency": 251,
+      "frequency": 1,
+      "monetary": 127.84,
+      "cluster": 1
+    },
+    {
+      "recency": 86,
+      "frequency": 1,
+      "monetary": 211.32,
+      "cluster": 1
+    },
+    {
+      "recency": 129,
+      "frequency": 1,
+      "monetary": 168.0,
+      "cluster": 1
+    },
+    {
+      "recency": 174,
+      "frequency": 1,
+      "monetary": 187.05,
+      "cluster": 1
+    },
+    {
+      "recency": 278,
+      "frequency": 2,
+      "monetary": 149.64,
+      "cluster": 1
+    },
+    {
+      "recency": 261,
+      "frequency": 1,
+      "monetary": 154.95,
+      "cluster": 1
+    },
+    {
+      "recency": 295,
+      "frequency": 1,
+      "monetary": 307.4,
+      "cluster": 1
+    },
+    {
+      "recency": 242,
+      "frequency": 1,
+      "monetary": 135.19,
+      "cluster": 1
+    },
+    {
+      "recency": 136,
+      "frequency": 1,
+      "monetary": 60.7,
+      "cluster": 1
+    },
+    {
+      "recency": 195,
+      "frequency": 1,
+      "monetary": 240.89,
+      "cluster": 1
+    },
+    {
+      "recency": 95,
+      "frequency": 4,
+      "monetary": 1037.59,
+      "cluster": 1
+    },
+    {
+      "recency": 186,
+      "frequency": 3,
+      "monetary": 710.28,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 10,
+      "monetary": 2000.86,
+      "cluster": 0
+    },
+    {
+      "recency": 61,
+      "frequency": 2,
+      "monetary": 643.9,
+      "cluster": 1
+    },
+    {
+      "recency": 136,
+      "frequency": 2,
+      "monetary": 752.6,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 8,
+      "monetary": 3146.92,
+      "cluster": 0
+    },
+    {
+      "recency": 41,
+      "frequency": 5,
+      "monetary": 1105.78,
+      "cluster": 0
+    },
+    {
+      "recency": 156,
+      "frequency": 2,
+      "monetary": 187.29,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 1,
+      "monetary": 90.04,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 8,
+      "monetary": 5859.43,
+      "cluster": 0
+    },
+    {
+      "recency": 164,
+      "frequency": 1,
+      "monetary": 110.92,
+      "cluster": 1
+    },
+    {
+      "recency": 309,
+      "frequency": 2,
+      "monetary": 693.33,
+      "cluster": 1
+    },
+    {
+      "recency": 134,
+      "frequency": 2,
+      "monetary": 397.29,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 6,
+      "monetary": 1064.07,
+      "cluster": 0
+    },
+    {
+      "recency": 1,
+      "frequency": 91,
+      "monetary": 60632.75,
+      "cluster": 0
+    },
+    {
+      "recency": 24,
+      "frequency": 1,
+      "monetary": 444.68,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 9,
+      "monetary": 2108.06,
+      "cluster": 0
+    },
+    {
+      "recency": 17,
+      "frequency": 8,
+      "monetary": 1502.86,
+      "cluster": 0
+    },
+    {
+      "recency": 34,
+      "frequency": 2,
+      "monetary": 355.73,
+      "cluster": 1
+    },
+    {
+      "recency": 45,
+      "frequency": 1,
+      "monetary": 221.97,
+      "cluster": 1
+    },
+    {
+      "recency": 81,
+      "frequency": 2,
+      "monetary": 810.57,
+      "cluster": 1
+    },
+    {
+      "recency": 17,
+      "frequency": 1,
+      "monetary": 138.6,
+      "cluster": 1
+    },
+    {
+      "recency": 86,
+      "frequency": 4,
+      "monetary": 1793.58,
+      "cluster": 0
+    },
+    {
+      "recency": 9,
+      "frequency": 44,
+      "monetary": 51527.3,
+      "cluster": 0
+    },
+    {
+      "recency": 131,
+      "frequency": 1,
+      "monetary": 1089.18,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 5,
+      "monetary": 1422.52,
+      "cluster": 0
+    },
+    {
+      "recency": 96,
+      "frequency": 2,
+      "monetary": 913.19,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 3,
+      "monetary": 568.55,
+      "cluster": 1
+    },
+    {
+      "recency": 51,
+      "frequency": 2,
+      "monetary": 599.56,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 26,
+      "monetary": 8004.92,
+      "cluster": 0
+    },
+    {
+      "recency": 104,
+      "frequency": 4,
+      "monetary": 417.06,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 1,
+      "monetary": 546.04,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 5,
+      "monetary": 1581.84,
+      "cluster": 0
+    },
+    {
+      "recency": 18,
+      "frequency": 5,
+      "monetary": 1515.9,
+      "cluster": 0
+    },
+    {
+      "recency": 374,
+      "frequency": 1,
+      "monetary": 489.6,
+      "cluster": 1
+    },
+    {
+      "recency": 167,
+      "frequency": 4,
+      "monetary": 803.54,
+      "cluster": 1
+    },
+    {
+      "recency": 289,
+      "frequency": 1,
+      "monetary": 1340.32,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 124,
+      "monetary": 40519.84,
+      "cluster": 0
+    },
+    {
+      "recency": 187,
+      "frequency": 1,
+      "monetary": 124.57,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 2,
+      "monetary": 192.6,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 7,
+      "monetary": 1328.35,
+      "cluster": 0
+    },
+    {
+      "recency": 12,
+      "frequency": 4,
+      "monetary": 745.06,
+      "cluster": 0
+    },
+    {
+      "recency": 237,
+      "frequency": 1,
+      "monetary": 175.27,
+      "cluster": 1
+    },
+    {
+      "recency": 72,
+      "frequency": 6,
+      "monetary": 2059.45,
+      "cluster": 0
+    },
+    {
+      "recency": 27,
+      "frequency": 5,
+      "monetary": 920.51,
+      "cluster": 0
+    },
+    {
+      "recency": 44,
+      "frequency": 3,
+      "monetary": 12601.83,
+      "cluster": 0
+    },
+    {
+      "recency": 11,
+      "frequency": 4,
+      "monetary": 420.3,
+      "cluster": 0
+    },
+    {
+      "recency": 9,
+      "frequency": 2,
+      "monetary": 1020.42,
+      "cluster": 0
+    },
+    {
+      "recency": 233,
+      "frequency": 1,
+      "monetary": 139.35,
+      "cluster": 1
+    },
+    {
+      "recency": 62,
+      "frequency": 3,
+      "monetary": 990.2,
+      "cluster": 1
+    },
+    {
+      "recency": 370,
+      "frequency": 1,
+      "monetary": 606.05,
+      "cluster": 1
+    },
+    {
+      "recency": 23,
+      "frequency": 3,
+      "monetary": 648.89,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 2,
+      "monetary": 584.07,
+      "cluster": 0
+    },
+    {
+      "recency": 193,
+      "frequency": 4,
+      "monetary": 517.53,
+      "cluster": 1
+    },
+    {
+      "recency": 45,
+      "frequency": 2,
+      "monetary": 664.26,
+      "cluster": 1
+    },
+    {
+      "recency": 132,
+      "frequency": 3,
+      "monetary": 675.6,
+      "cluster": 1
+    },
+    {
+      "recency": 215,
+      "frequency": 1,
+      "monetary": 459.4,
+      "cluster": 1
+    },
+    {
+      "recency": 113,
+      "frequency": 5,
+      "monetary": 404.58,
+      "cluster": 1
+    },
+    {
+      "recency": 284,
+      "frequency": 1,
+      "monetary": 417.2,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 8,
+      "monetary": 984.91,
+      "cluster": 0
+    },
+    {
+      "recency": 235,
+      "frequency": 2,
+      "monetary": 280.55,
+      "cluster": 1
+    },
+    {
+      "recency": 111,
+      "frequency": 1,
+      "monetary": 548.12,
+      "cluster": 1
+    },
+    {
+      "recency": 285,
+      "frequency": 1,
+      "monetary": 158.68,
+      "cluster": 1
+    },
+    {
+      "recency": 45,
+      "frequency": 1,
+      "monetary": 229.64,
+      "cluster": 1
+    },
+    {
+      "recency": 192,
+      "frequency": 1,
+      "monetary": 133.56,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 10,
+      "monetary": 3945.0,
+      "cluster": 0
+    },
+    {
+      "recency": 24,
+      "frequency": 5,
+      "monetary": 981.51,
+      "cluster": 0
+    },
+    {
+      "recency": 19,
+      "frequency": 3,
+      "monetary": 635.41,
+      "cluster": 0
+    },
+    {
+      "recency": 72,
+      "frequency": 1,
+      "monetary": 224.14,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 1,
+      "monetary": 110.46,
+      "cluster": 1
+    },
+    {
+      "recency": 240,
+      "frequency": 1,
+      "monetary": 116.01,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 2,
+      "monetary": 2794.51,
+      "cluster": 0
+    },
+    {
+      "recency": 51,
+      "frequency": 4,
+      "monetary": 1425.67,
+      "cluster": 0
+    },
+    {
+      "recency": 47,
+      "frequency": 2,
+      "monetary": 698.41,
+      "cluster": 1
+    },
+    {
+      "recency": 50,
+      "frequency": 2,
+      "monetary": 272.04,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 3,
+      "monetary": 2720.63,
+      "cluster": 0
+    },
+    {
+      "recency": 43,
+      "frequency": 3,
+      "monetary": 1837.28,
+      "cluster": 0
+    },
+    {
+      "recency": 149,
+      "frequency": 3,
+      "monetary": 2103.06,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 3,
+      "monetary": 1174.58,
+      "cluster": 0
+    },
+    {
+      "recency": 123,
+      "frequency": 2,
+      "monetary": 804.02,
+      "cluster": 1
+    },
+    {
+      "recency": 304,
+      "frequency": 1,
+      "monetary": 205.48,
+      "cluster": 1
+    },
+    {
+      "recency": 109,
+      "frequency": 2,
+      "monetary": 1135.04,
+      "cluster": 1
+    },
+    {
+      "recency": 79,
+      "frequency": 3,
+      "monetary": 1126.85,
+      "cluster": 1
+    },
+    {
+      "recency": 23,
+      "frequency": 4,
+      "monetary": 4067.29,
+      "cluster": 0
+    },
+    {
+      "recency": 158,
+      "frequency": 2,
+      "monetary": 416.08,
+      "cluster": 1
+    },
+    {
+      "recency": 26,
+      "frequency": 3,
+      "monetary": 1213.16,
+      "cluster": 0
+    },
+    {
+      "recency": 2,
+      "frequency": 11,
+      "monetary": 3883.25,
+      "cluster": 0
+    },
+    {
+      "recency": 24,
+      "frequency": 2,
+      "monetary": 503.76,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 4,
+      "monetary": 915.13,
+      "cluster": 0
+    },
+    {
+      "recency": 160,
+      "frequency": 2,
+      "monetary": 665.78,
+      "cluster": 1
+    },
+    {
+      "recency": 143,
+      "frequency": 1,
+      "monetary": 329.65,
+      "cluster": 1
+    },
+    {
+      "recency": 99,
+      "frequency": 3,
+      "monetary": 529.62,
+      "cluster": 1
+    },
+    {
+      "recency": 264,
+      "frequency": 1,
+      "monetary": 226.21,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 10,
+      "monetary": 2588.77,
+      "cluster": 0
+    },
+    {
+      "recency": 180,
+      "frequency": 1,
+      "monetary": 236.26,
+      "cluster": 1
+    },
+    {
+      "recency": 20,
+      "frequency": 1,
+      "monetary": 170.32,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 2,
+      "monetary": 396.48,
+      "cluster": 0
+    },
+    {
+      "recency": 17,
+      "frequency": 2,
+      "monetary": 529.41,
+      "cluster": 1
+    },
+    {
+      "recency": 32,
+      "frequency": 9,
+      "monetary": 1843.83,
+      "cluster": 0
+    },
+    {
+      "recency": 191,
+      "frequency": 1,
+      "monetary": 296.7,
+      "cluster": 1
+    },
+    {
+      "recency": 1,
+      "frequency": 1,
+      "monetary": 848.55,
+      "cluster": 0
+    },
+    {
+      "recency": 312,
+      "frequency": 1,
+      "monetary": 364.6,
+      "cluster": 1
+    },
+    {
+      "recency": 6,
+      "frequency": 4,
+      "monetary": 594.52,
+      "cluster": 0
+    },
+    {
+      "recency": 239,
+      "frequency": 2,
+      "monetary": 511.36,
+      "cluster": 1
+    },
+    {
+      "recency": 316,
+      "frequency": 2,
+      "monetary": 779.57,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 2,
+      "monetary": 618.09,
+      "cluster": 1
+    },
+    {
+      "recency": 76,
+      "frequency": 4,
+      "monetary": 322.41,
+      "cluster": 1
+    },
+    {
+      "recency": 193,
+      "frequency": 1,
+      "monetary": 228.8,
+      "cluster": 1
+    },
+    {
+      "recency": 59,
+      "frequency": 4,
+      "monetary": 1113.02,
+      "cluster": 0
+    },
+    {
+      "recency": 373,
+      "frequency": 1,
+      "monetary": 106.2,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 8,
+      "monetary": 4331.48,
+      "cluster": 0
+    },
+    {
+      "recency": 19,
+      "frequency": 6,
+      "monetary": 939.32,
+      "cluster": 0
+    },
+    {
+      "recency": 61,
+      "frequency": 2,
+      "monetary": 422.64,
+      "cluster": 1
+    },
+    {
+      "recency": 204,
+      "frequency": 1,
+      "monetary": 585.12,
+      "cluster": 1
+    },
+    {
+      "recency": 155,
+      "frequency": 2,
+      "monetary": 322.96,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 3,
+      "monetary": 564.62,
+      "cluster": 1
+    },
+    {
+      "recency": 57,
+      "frequency": 2,
+      "monetary": 245.81,
+      "cluster": 1
+    },
+    {
+      "recency": 309,
+      "frequency": 1,
+      "monetary": 393.49,
+      "cluster": 1
+    },
+    {
+      "recency": 19,
+      "frequency": 3,
+      "monetary": 1132.14,
+      "cluster": 0
+    },
+    {
+      "recency": 20,
+      "frequency": 18,
+      "monetary": 7354.62,
+      "cluster": 0
+    },
+    {
+      "recency": 363,
+      "frequency": 1,
+      "monetary": 157.92,
+      "cluster": 1
+    },
+    {
+      "recency": 113,
+      "frequency": 1,
+      "monetary": 612.29,
+      "cluster": 1
+    },
+    {
+      "recency": 135,
+      "frequency": 1,
+      "monetary": 25.5,
+      "cluster": 1
+    },
+    {
+      "recency": 201,
+      "frequency": 1,
+      "monetary": 339.6,
+      "cluster": 1
+    },
+    {
+      "recency": 25,
+      "frequency": 1,
+      "monetary": 205.25,
+      "cluster": 1
+    },
+    {
+      "recency": 274,
+      "frequency": 1,
+      "monetary": 516.42,
+      "cluster": 1
+    },
+    {
+      "recency": 15,
+      "frequency": 1,
+      "monetary": 183.02,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 21,
+      "monetary": 5579.1,
+      "cluster": 0
+    },
+    {
+      "recency": 4,
+      "frequency": 5,
+      "monetary": 1651.03,
+      "cluster": 0
+    },
+    {
+      "recency": 16,
+      "frequency": 8,
+      "monetary": 1906.09,
+      "cluster": 0
+    },
+    {
+      "recency": 205,
+      "frequency": 1,
+      "monetary": 171.45,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 13,
+      "monetary": 4730.81,
+      "cluster": 0
+    },
+    {
+      "recency": 277,
+      "frequency": 1,
+      "monetary": 325.1,
+      "cluster": 1
+    },
+    {
+      "recency": 27,
+      "frequency": 5,
+      "monetary": 2720.8,
+      "cluster": 0
+    },
+    {
+      "recency": 86,
+      "frequency": 1,
+      "monetary": 679.68,
+      "cluster": 1
+    },
+    {
+      "recency": 212,
+      "frequency": 2,
+      "monetary": 9864.26,
+      "cluster": 0
+    },
+    {
+      "recency": 89,
+      "frequency": 4,
+      "monetary": 2726.23,
+      "cluster": 0
+    },
+    {
+      "recency": 22,
+      "frequency": 1,
+      "monetary": 177.31,
+      "cluster": 1
+    },
+    {
+      "recency": 61,
+      "frequency": 1,
+      "monetary": 499.32,
+      "cluster": 1
+    },
+    {
+      "recency": 64,
+      "frequency": 4,
+      "monetary": 1060.56,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 1,
+      "monetary": 196.94,
+      "cluster": 1
+    },
+    {
+      "recency": 1,
+      "frequency": 23,
+      "monetary": 15610.39,
+      "cluster": 0
+    },
+    {
+      "recency": 47,
+      "frequency": 1,
+      "monetary": 255.9,
+      "cluster": 1
+    },
+    {
+      "recency": 128,
+      "frequency": 3,
+      "monetary": 982.42,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 12,
+      "monetary": 18895.91,
+      "cluster": 0
+    },
+    {
+      "recency": 32,
+      "frequency": 11,
+      "monetary": 3170.98,
+      "cluster": 0
+    },
+    {
+      "recency": 190,
+      "frequency": 1,
+      "monetary": 39.12,
+      "cluster": 1
+    },
+    {
+      "recency": 17,
+      "frequency": 4,
+      "monetary": 775.96,
+      "cluster": 0
+    },
+    {
+      "recency": 129,
+      "frequency": 3,
+      "monetary": 408.59,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 3,
+      "monetary": 797.96,
+      "cluster": 0
+    },
+    {
+      "recency": 115,
+      "frequency": 3,
+      "monetary": 653.38,
+      "cluster": 1
+    },
+    {
+      "recency": 67,
+      "frequency": 2,
+      "monetary": 574.07,
+      "cluster": 1
+    },
+    {
+      "recency": 200,
+      "frequency": 3,
+      "monetary": 1396.99,
+      "cluster": 1
+    },
+    {
+      "recency": 64,
+      "frequency": 1,
+      "monetary": 439.56,
+      "cluster": 1
+    },
+    {
+      "recency": 148,
+      "frequency": 1,
+      "monetary": 358.56,
+      "cluster": 1
+    },
+    {
+      "recency": 34,
+      "frequency": 3,
+      "monetary": 980.31,
+      "cluster": 0
+    },
+    {
+      "recency": 38,
+      "frequency": 6,
+      "monetary": 1454.58,
+      "cluster": 0
+    },
+    {
+      "recency": 96,
+      "frequency": 1,
+      "monetary": 82.75,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 5,
+      "monetary": 1662.3,
+      "cluster": 0
+    },
+    {
+      "recency": 90,
+      "frequency": 3,
+      "monetary": 3756.33,
+      "cluster": 0
+    },
+    {
+      "recency": 29,
+      "frequency": 10,
+      "monetary": 2599.04,
+      "cluster": 0
+    },
+    {
+      "recency": 236,
+      "frequency": 1,
+      "monetary": 151.85,
+      "cluster": 1
+    },
+    {
+      "recency": 67,
+      "frequency": 3,
+      "monetary": 705.12,
+      "cluster": 1
+    },
+    {
+      "recency": 131,
+      "frequency": 3,
+      "monetary": 1685.46,
+      "cluster": 1
+    },
+    {
+      "recency": 64,
+      "frequency": 1,
+      "monetary": 221.06,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 2,
+      "monetary": 328.4,
+      "cluster": 1
+    },
+    {
+      "recency": 1,
+      "frequency": 10,
+      "monetary": 3641.32,
+      "cluster": 0
+    },
+    {
+      "recency": 16,
+      "frequency": 14,
+      "monetary": 16209.5,
+      "cluster": 0
+    },
+    {
+      "recency": 27,
+      "frequency": 7,
+      "monetary": 1049.06,
+      "cluster": 0
+    },
+    {
+      "recency": 32,
+      "frequency": 6,
+      "monetary": 2461.24,
+      "cluster": 0
+    },
+    {
+      "recency": 20,
+      "frequency": 10,
+      "monetary": 2467.99,
+      "cluster": 0
+    },
+    {
+      "recency": 5,
+      "frequency": 2,
+      "monetary": 640.83,
+      "cluster": 0
+    },
+    {
+      "recency": 2,
+      "frequency": 5,
+      "monetary": 1245.9,
+      "cluster": 0
+    },
+    {
+      "recency": 132,
+      "frequency": 3,
+      "monetary": 2375.41,
+      "cluster": 1
+    },
+    {
+      "recency": 66,
+      "frequency": 1,
+      "monetary": 90.6,
+      "cluster": 1
+    },
+    {
+      "recency": 372,
+      "frequency": 1,
+      "monetary": 39.75,
+      "cluster": 1
+    },
+    {
+      "recency": 338,
+      "frequency": 2,
+      "monetary": 401.9,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 34,
+      "monetary": 16594.35,
+      "cluster": 0
+    },
+    {
+      "recency": 65,
+      "frequency": 4,
+      "monetary": 2634.45,
+      "cluster": 0
+    },
+    {
+      "recency": 5,
+      "frequency": 6,
+      "monetary": 400.86,
+      "cluster": 0
+    },
+    {
+      "recency": 100,
+      "frequency": 3,
+      "monetary": 1019.76,
+      "cluster": 1
+    },
+    {
+      "recency": 61,
+      "frequency": 1,
+      "monetary": 200.14,
+      "cluster": 1
+    },
+    {
+      "recency": 58,
+      "frequency": 2,
+      "monetary": 239.92,
+      "cluster": 1
+    },
+    {
+      "recency": 82,
+      "frequency": 4,
+      "monetary": 559.59,
+      "cluster": 1
+    },
+    {
+      "recency": 97,
+      "frequency": 2,
+      "monetary": 678.16,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 1,
+      "monetary": 124.2,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 51,
+      "monetary": 34684.4,
+      "cluster": 0
+    },
+    {
+      "recency": 60,
+      "frequency": 1,
+      "monetary": 397.12,
+      "cluster": 1
+    },
+    {
+      "recency": 156,
+      "frequency": 1,
+      "monetary": 308.58,
+      "cluster": 1
+    },
+    {
+      "recency": 184,
+      "frequency": 2,
+      "monetary": 251.21,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 1,
+      "monetary": 433.86,
+      "cluster": 1
+    },
+    {
+      "recency": 27,
+      "frequency": 3,
+      "monetary": 808.44,
+      "cluster": 0
+    },
+    {
+      "recency": 150,
+      "frequency": 1,
+      "monetary": 610.01,
+      "cluster": 1
+    },
+    {
+      "recency": 113,
+      "frequency": 1,
+      "monetary": 288.18,
+      "cluster": 1
+    },
+    {
+      "recency": 71,
+      "frequency": 1,
+      "monetary": 74.4,
+      "cluster": 1
+    },
+    {
+      "recency": 51,
+      "frequency": 1,
+      "monetary": 157.05,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 26,
+      "monetary": 5625.08,
+      "cluster": 0
+    },
+    {
+      "recency": 179,
+      "frequency": 2,
+      "monetary": 674.52,
+      "cluster": 1
+    },
+    {
+      "recency": 41,
+      "frequency": 1,
+      "monetary": 166.2,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 4,
+      "monetary": 1643.18,
+      "cluster": 0
+    },
+    {
+      "recency": 218,
+      "frequency": 1,
+      "monetary": 76.32,
+      "cluster": 1
+    },
+    {
+      "recency": 120,
+      "frequency": 2,
+      "monetary": 254.1,
+      "cluster": 1
+    },
+    {
+      "recency": 79,
+      "frequency": 1,
+      "monetary": 432.2,
+      "cluster": 1
+    },
+    {
+      "recency": 360,
+      "frequency": 1,
+      "monetary": 422.7,
+      "cluster": 1
+    },
+    {
+      "recency": 96,
+      "frequency": 5,
+      "monetary": 948.25,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 8,
+      "monetary": 3603.29,
+      "cluster": 0
+    },
+    {
+      "recency": 359,
+      "frequency": 2,
+      "monetary": 1660.9,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 4,
+      "monetary": 450.84,
+      "cluster": 0
+    },
+    {
+      "recency": 4,
+      "frequency": 7,
+      "monetary": 1616.8,
+      "cluster": 0
+    },
+    {
+      "recency": 326,
+      "frequency": 1,
+      "monetary": 155.93,
+      "cluster": 1
+    },
+    {
+      "recency": 17,
+      "frequency": 3,
+      "monetary": 745.52,
+      "cluster": 0
+    },
+    {
+      "recency": 374,
+      "frequency": 1,
+      "monetary": 311.81,
+      "cluster": 1
+    },
+    {
+      "recency": 314,
+      "frequency": 1,
+      "monetary": 559.61,
+      "cluster": 1
+    },
+    {
+      "recency": 23,
+      "frequency": 1,
+      "monetary": 133.4,
+      "cluster": 1
+    },
+    {
+      "recency": 19,
+      "frequency": 4,
+      "monetary": 2020.4,
+      "cluster": 0
+    },
+    {
+      "recency": 24,
+      "frequency": 3,
+      "monetary": 1413.66,
+      "cluster": 0
+    },
+    {
+      "recency": 72,
+      "frequency": 2,
+      "monetary": 947.4,
+      "cluster": 1
+    },
+    {
+      "recency": 365,
+      "frequency": 1,
+      "monetary": 311.95,
+      "cluster": 1
+    },
+    {
+      "recency": 34,
+      "frequency": 2,
+      "monetary": 659.41,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 13,
+      "monetary": 2790.95,
+      "cluster": 0
+    },
+    {
+      "recency": 93,
+      "frequency": 1,
+      "monetary": 121.74,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 4,
+      "monetary": 1195.9,
+      "cluster": 0
+    },
+    {
+      "recency": 150,
+      "frequency": 2,
+      "monetary": 653.3,
+      "cluster": 1
+    },
+    {
+      "recency": 30,
+      "frequency": 2,
+      "monetary": 621.75,
+      "cluster": 1
+    },
+    {
+      "recency": 300,
+      "frequency": 2,
+      "monetary": 289.78,
+      "cluster": 1
+    },
+    {
+      "recency": 20,
+      "frequency": 1,
+      "monetary": 198.8,
+      "cluster": 1
+    },
+    {
+      "recency": 10,
+      "frequency": 5,
+      "monetary": 4708.86,
+      "cluster": 0
+    },
+    {
+      "recency": 150,
+      "frequency": 4,
+      "monetary": 295.0,
+      "cluster": 1
+    },
+    {
+      "recency": 248,
+      "frequency": 2,
+      "monetary": 632.4,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 19,
+      "monetary": 4521.49,
+      "cluster": 0
+    },
+    {
+      "recency": 5,
+      "frequency": 2,
+      "monetary": 239.76,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 19,
+      "monetary": 2612.96,
+      "cluster": 0
+    },
+    {
+      "recency": 12,
+      "frequency": 19,
+      "monetary": 33643.08,
+      "cluster": 0
+    },
+    {
+      "recency": 47,
+      "frequency": 6,
+      "monetary": 1611.59,
+      "cluster": 0
+    },
+    {
+      "recency": 289,
+      "frequency": 1,
+      "monetary": 462.95,
+      "cluster": 1
+    },
+    {
+      "recency": 32,
+      "frequency": 3,
+      "monetary": 931.02,
+      "cluster": 0
+    },
+    {
+      "recency": 268,
+      "frequency": 1,
+      "monetary": 676.2,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 7,
+      "monetary": 2638.94,
+      "cluster": 0
+    },
+    {
+      "recency": 6,
+      "frequency": 3,
+      "monetary": 663.81,
+      "cluster": 0
+    },
+    {
+      "recency": 228,
+      "frequency": 1,
+      "monetary": 205.7,
+      "cluster": 1
+    },
+    {
+      "recency": 76,
+      "frequency": 1,
+      "monetary": 254.28,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 6,
+      "monetary": 8438.34,
+      "cluster": 0
+    },
+    {
+      "recency": 192,
+      "frequency": 2,
+      "monetary": 617.05,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 22,
+      "monetary": 10611.72,
+      "cluster": 0
+    },
+    {
+      "recency": 31,
+      "frequency": 15,
+      "monetary": 4726.8,
+      "cluster": 0
+    },
+    {
+      "recency": 276,
+      "frequency": 1,
+      "monetary": 380.5,
+      "cluster": 1
+    },
+    {
+      "recency": 256,
+      "frequency": 1,
+      "monetary": 277.07,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 1,
+      "monetary": 41.99,
+      "cluster": 1
+    },
+    {
+      "recency": 354,
+      "frequency": 1,
+      "monetary": 1141.24,
+      "cluster": 1
+    },
+    {
+      "recency": 96,
+      "frequency": 1,
+      "monetary": 205.3,
+      "cluster": 1
+    },
+    {
+      "recency": 158,
+      "frequency": 1,
+      "monetary": 487.02,
+      "cluster": 1
+    },
+    {
+      "recency": 288,
+      "frequency": 1,
+      "monetary": 741.26,
+      "cluster": 1
+    },
+    {
+      "recency": 82,
+      "frequency": 3,
+      "monetary": 1179.89,
+      "cluster": 1
+    },
+    {
+      "recency": 363,
+      "frequency": 1,
+      "monetary": 135.4,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 10,
+      "monetary": 1951.97,
+      "cluster": 0
+    },
+    {
+      "recency": 24,
+      "frequency": 17,
+      "monetary": 6211.66,
+      "cluster": 0
+    },
+    {
+      "recency": 11,
+      "frequency": 1,
+      "monetary": 218.75,
+      "cluster": 1
+    },
+    {
+      "recency": 36,
+      "frequency": 15,
+      "monetary": 6419.95,
+      "cluster": 0
+    },
+    {
+      "recency": 38,
+      "frequency": 3,
+      "monetary": 646.83,
+      "cluster": 1
+    },
+    {
+      "recency": 25,
+      "frequency": 1,
+      "monetary": 160.19,
+      "cluster": 1
+    },
+    {
+      "recency": 261,
+      "frequency": 1,
+      "monetary": 335.32,
+      "cluster": 1
+    },
+    {
+      "recency": 240,
+      "frequency": 2,
+      "monetary": 312.23,
+      "cluster": 1
+    },
+    {
+      "recency": 281,
+      "frequency": 2,
+      "monetary": 3811.95,
+      "cluster": 1
+    },
+    {
+      "recency": 32,
+      "frequency": 3,
+      "monetary": 869.28,
+      "cluster": 1
+    },
+    {
+      "recency": 116,
+      "frequency": 1,
+      "monetary": 185.9,
+      "cluster": 1
+    },
+    {
+      "recency": 157,
+      "frequency": 2,
+      "monetary": 1030.4,
+      "cluster": 1
+    },
+    {
+      "recency": 356,
+      "frequency": 1,
+      "monetary": 193.64,
+      "cluster": 1
+    },
+    {
+      "recency": 10,
+      "frequency": 6,
+      "monetary": 621.68,
+      "cluster": 0
+    },
+    {
+      "recency": 121,
+      "frequency": 13,
+      "monetary": 3675.77,
+      "cluster": 0
+    },
+    {
+      "recency": 213,
+      "frequency": 1,
+      "monetary": 1031.07,
+      "cluster": 1
+    },
+    {
+      "recency": 79,
+      "frequency": 6,
+      "monetary": 877.56,
+      "cluster": 0
+    },
+    {
+      "recency": 359,
+      "frequency": 1,
+      "monetary": 540.45,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 19,
+      "monetary": 13110.02,
+      "cluster": 0
+    },
+    {
+      "recency": 45,
+      "frequency": 2,
+      "monetary": 792.11,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 2,
+      "monetary": 439.92,
+      "cluster": 0
+    },
+    {
+      "recency": 4,
+      "frequency": 8,
+      "monetary": 2097.88,
+      "cluster": 0
+    },
+    {
+      "recency": 128,
+      "frequency": 1,
+      "monetary": 62.64,
+      "cluster": 1
+    },
+    {
+      "recency": 142,
+      "frequency": 4,
+      "monetary": 601.27,
+      "cluster": 1
+    },
+    {
+      "recency": 117,
+      "frequency": 1,
+      "monetary": 508.46,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 5,
+      "monetary": 2357.68,
+      "cluster": 0
+    },
+    {
+      "recency": 135,
+      "frequency": 2,
+      "monetary": 408.36,
+      "cluster": 1
+    },
+    {
+      "recency": 104,
+      "frequency": 4,
+      "monetary": 618.09,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 3,
+      "monetary": 1067.75,
+      "cluster": 0
+    },
+    {
+      "recency": 1,
+      "frequency": 8,
+      "monetary": 1859.31,
+      "cluster": 0
+    },
+    {
+      "recency": 18,
+      "frequency": 8,
+      "monetary": 6493.54,
+      "cluster": 0
+    },
+    {
+      "recency": 38,
+      "frequency": 5,
+      "monetary": 1098.43,
+      "cluster": 0
+    },
+    {
+      "recency": 36,
+      "frequency": 3,
+      "monetary": 798.74,
+      "cluster": 1
+    },
+    {
+      "recency": 50,
+      "frequency": 1,
+      "monetary": 427.7,
+      "cluster": 1
+    },
+    {
+      "recency": 59,
+      "frequency": 9,
+      "monetary": 3385.62,
+      "cluster": 0
+    },
+    {
+      "recency": 25,
+      "frequency": 14,
+      "monetary": 4416.26,
+      "cluster": 0
+    },
+    {
+      "recency": 226,
+      "frequency": 1,
+      "monetary": 314.22,
+      "cluster": 1
+    },
+    {
+      "recency": 313,
+      "frequency": 1,
+      "monetary": 382.5,
+      "cluster": 1
+    },
+    {
+      "recency": 288,
+      "frequency": 1,
+      "monetary": 189.9,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 27,
+      "monetary": 3787.6,
+      "cluster": 0
+    },
+    {
+      "recency": 186,
+      "frequency": 6,
+      "monetary": 1607.06,
+      "cluster": 0
+    },
+    {
+      "recency": 108,
+      "frequency": 3,
+      "monetary": 1314.45,
+      "cluster": 1
+    },
+    {
+      "recency": 213,
+      "frequency": 1,
+      "monetary": 348.15,
+      "cluster": 1
+    },
+    {
+      "recency": 78,
+      "frequency": 1,
+      "monetary": 363.65,
+      "cluster": 1
+    },
+    {
+      "recency": 81,
+      "frequency": 2,
+      "monetary": 490.86,
+      "cluster": 1
+    },
+    {
+      "recency": 107,
+      "frequency": 2,
+      "monetary": 383.75,
+      "cluster": 1
+    },
+    {
+      "recency": 237,
+      "frequency": 3,
+      "monetary": 630.84,
+      "cluster": 1
+    },
+    {
+      "recency": 366,
+      "frequency": 1,
+      "monetary": 254.03,
+      "cluster": 1
+    },
+    {
+      "recency": 51,
+      "frequency": 1,
+      "monetary": 214.32,
+      "cluster": 1
+    },
+    {
+      "recency": 17,
+      "frequency": 5,
+      "monetary": 1870.97,
+      "cluster": 0
+    },
+    {
+      "recency": 29,
+      "frequency": 1,
+      "monetary": 162.22,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 13,
+      "monetary": 4051.48,
+      "cluster": 0
+    },
+    {
+      "recency": 50,
+      "frequency": 8,
+      "monetary": 1980.56,
+      "cluster": 0
+    },
+    {
+      "recency": 2,
+      "frequency": 4,
+      "monetary": 3590.41,
+      "cluster": 0
+    },
+    {
+      "recency": 30,
+      "frequency": 5,
+      "monetary": 2188.05,
+      "cluster": 0
+    },
+    {
+      "recency": 36,
+      "frequency": 3,
+      "monetary": 557.94,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 6,
+      "monetary": 3789.52,
+      "cluster": 0
+    },
+    {
+      "recency": 16,
+      "frequency": 8,
+      "monetary": 1657.28,
+      "cluster": 0
+    },
+    {
+      "recency": 54,
+      "frequency": 1,
+      "monetary": 204.24,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 4,
+      "monetary": 1006.8,
+      "cluster": 0
+    },
+    {
+      "recency": 23,
+      "frequency": 2,
+      "monetary": 268.05,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 25,
+      "monetary": 4748.52,
+      "cluster": 0
+    },
+    {
+      "recency": 305,
+      "frequency": 1,
+      "monetary": 141.92,
+      "cluster": 1
+    },
+    {
+      "recency": 262,
+      "frequency": 1,
+      "monetary": 77.3,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 2,
+      "monetary": 461.19,
+      "cluster": 1
+    },
+    {
+      "recency": 74,
+      "frequency": 2,
+      "monetary": 558.7,
+      "cluster": 1
+    },
+    {
+      "recency": 39,
+      "frequency": 3,
+      "monetary": 1247.69,
+      "cluster": 0
+    },
+    {
+      "recency": 75,
+      "frequency": 1,
+      "monetary": 1033.34,
+      "cluster": 1
+    },
+    {
+      "recency": 48,
+      "frequency": 12,
+      "monetary": 4331.79,
+      "cluster": 0
+    },
+    {
+      "recency": 4,
+      "frequency": 26,
+      "monetary": 12627.94,
+      "cluster": 0
+    },
+    {
+      "recency": 58,
+      "frequency": 2,
+      "monetary": 225.85,
+      "cluster": 1
+    },
+    {
+      "recency": 54,
+      "frequency": 3,
+      "monetary": 700.63,
+      "cluster": 1
+    },
+    {
+      "recency": 15,
+      "frequency": 2,
+      "monetary": 523.11,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 3,
+      "monetary": 734.37,
+      "cluster": 0
+    },
+    {
+      "recency": 57,
+      "frequency": 1,
+      "monetary": 81.57,
+      "cluster": 1
+    },
+    {
+      "recency": 66,
+      "frequency": 8,
+      "monetary": 1702.26,
+      "cluster": 0
+    },
+    {
+      "recency": 75,
+      "frequency": 3,
+      "monetary": 572.45,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 2,
+      "monetary": 126.25,
+      "cluster": 1
+    },
+    {
+      "recency": 50,
+      "frequency": 6,
+      "monetary": 2965.69,
+      "cluster": 0
+    },
+    {
+      "recency": 64,
+      "frequency": 1,
+      "monetary": 122.7,
+      "cluster": 1
+    },
+    {
+      "recency": 17,
+      "frequency": 8,
+      "monetary": 2552.21,
+      "cluster": 0
+    },
+    {
+      "recency": 23,
+      "frequency": 3,
+      "monetary": 840.21,
+      "cluster": 0
+    },
+    {
+      "recency": 87,
+      "frequency": 4,
+      "monetary": 2106.84,
+      "cluster": 0
+    },
+    {
+      "recency": 79,
+      "frequency": 1,
+      "monetary": 122.75,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 3,
+      "monetary": 640.76,
+      "cluster": 0
+    },
+    {
+      "recency": 88,
+      "frequency": 1,
+      "monetary": 563.15,
+      "cluster": 1
+    },
+    {
+      "recency": 145,
+      "frequency": 4,
+      "monetary": 1484.06,
+      "cluster": 1
+    },
+    {
+      "recency": 44,
+      "frequency": 7,
+      "monetary": 1280.85,
+      "cluster": 0
+    },
+    {
+      "recency": 10,
+      "frequency": 47,
+      "monetary": 19766.59,
+      "cluster": 0
+    },
+    {
+      "recency": 240,
+      "frequency": 1,
+      "monetary": 139.05,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 8,
+      "monetary": 1465.51,
+      "cluster": 0
+    },
+    {
+      "recency": 10,
+      "frequency": 11,
+      "monetary": 3611.31,
+      "cluster": 0
+    },
+    {
+      "recency": 240,
+      "frequency": 2,
+      "monetary": 416.86,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 2,
+      "monetary": 178.96,
+      "cluster": 1
+    },
+    {
+      "recency": 79,
+      "frequency": 5,
+      "monetary": 2247.41,
+      "cluster": 0
+    },
+    {
+      "recency": 202,
+      "frequency": 1,
+      "monetary": 178.39,
+      "cluster": 1
+    },
+    {
+      "recency": 253,
+      "frequency": 1,
+      "monetary": 151.5,
+      "cluster": 1
+    },
+    {
+      "recency": 177,
+      "frequency": 1,
+      "monetary": 46.95,
+      "cluster": 1
+    },
+    {
+      "recency": 374,
+      "frequency": 2,
+      "monetary": 256.44,
+      "cluster": 1
+    },
+    {
+      "recency": 151,
+      "frequency": 2,
+      "monetary": 652.8,
+      "cluster": 1
+    },
+    {
+      "recency": 190,
+      "frequency": 1,
+      "monetary": 232.21,
+      "cluster": 1
+    },
+    {
+      "recency": 101,
+      "frequency": 3,
+      "monetary": 455.59,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 5,
+      "monetary": 2795.33,
+      "cluster": 0
+    },
+    {
+      "recency": 206,
+      "frequency": 1,
+      "monetary": 1384.25,
+      "cluster": 1
+    },
+    {
+      "recency": 82,
+      "frequency": 1,
+      "monetary": 52.83,
+      "cluster": 1
+    },
+    {
+      "recency": 267,
+      "frequency": 1,
+      "monetary": 152.55,
+      "cluster": 1
+    },
+    {
+      "recency": 19,
+      "frequency": 4,
+      "monetary": 701.4,
+      "cluster": 0
+    },
+    {
+      "recency": 9,
+      "frequency": 10,
+      "monetary": 1652.18,
+      "cluster": 0
+    },
+    {
+      "recency": 23,
+      "frequency": 6,
+      "monetary": 21429.39,
+      "cluster": 0
+    },
+    {
+      "recency": 135,
+      "frequency": 2,
+      "monetary": 653.35,
+      "cluster": 1
+    },
+    {
+      "recency": 74,
+      "frequency": 6,
+      "monetary": 5976.79,
+      "cluster": 0
+    },
+    {
+      "recency": 19,
+      "frequency": 1,
+      "monetary": 327.3,
+      "cluster": 1
+    },
+    {
+      "recency": 61,
+      "frequency": 3,
+      "monetary": 84.65,
+      "cluster": 1
+    },
+    {
+      "recency": 26,
+      "frequency": 9,
+      "monetary": 1600.86,
+      "cluster": 0
+    },
+    {
+      "recency": 193,
+      "frequency": 1,
+      "monetary": 309.54,
+      "cluster": 1
+    },
+    {
+      "recency": 274,
+      "frequency": 2,
+      "monetary": 1145.6,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 11,
+      "monetary": 9068.26,
+      "cluster": 0
+    },
+    {
+      "recency": 46,
+      "frequency": 3,
+      "monetary": 1320.95,
+      "cluster": 0
+    },
+    {
+      "recency": 16,
+      "frequency": 3,
+      "monetary": 450.41,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 10,
+      "monetary": 3124.72,
+      "cluster": 0
+    },
+    {
+      "recency": 29,
+      "frequency": 2,
+      "monetary": 585.27,
+      "cluster": 1
+    },
+    {
+      "recency": 75,
+      "frequency": 2,
+      "monetary": 245.94,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 2,
+      "monetary": 418.68,
+      "cluster": 1
+    },
+    {
+      "recency": 72,
+      "frequency": 3,
+      "monetary": 536.68,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 6,
+      "monetary": 2274.14,
+      "cluster": 0
+    },
+    {
+      "recency": 149,
+      "frequency": 1,
+      "monetary": 309.4,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 4,
+      "monetary": 1797.78,
+      "cluster": 0
+    },
+    {
+      "recency": 67,
+      "frequency": 1,
+      "monetary": 890.85,
+      "cluster": 1
+    },
+    {
+      "recency": 312,
+      "frequency": 1,
+      "monetary": 316.26,
+      "cluster": 1
+    },
+    {
+      "recency": 20,
+      "frequency": 1,
+      "monetary": 225.36,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 20,
+      "monetary": 8694.26,
+      "cluster": 0
+    },
+    {
+      "recency": 11,
+      "frequency": 7,
+      "monetary": 4478.53,
+      "cluster": 0
+    },
+    {
+      "recency": 68,
+      "frequency": 3,
+      "monetary": 2511.69,
+      "cluster": 0
+    },
+    {
+      "recency": 15,
+      "frequency": 1,
+      "monetary": 100.9,
+      "cluster": 1
+    },
+    {
+      "recency": 284,
+      "frequency": 1,
+      "monetary": 559.12,
+      "cluster": 1
+    },
+    {
+      "recency": 6,
+      "frequency": 3,
+      "monetary": 2134.01,
+      "cluster": 0
+    },
+    {
+      "recency": 1,
+      "frequency": 60,
+      "monetary": 259657.3,
+      "cluster": 0
+    },
+    {
+      "recency": 25,
+      "frequency": 1,
+      "monetary": 655.58,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 10,
+      "monetary": 2079.68,
+      "cluster": 0
+    },
+    {
+      "recency": 75,
+      "frequency": 2,
+      "monetary": 675.8,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 1,
+      "monetary": 247.32,
+      "cluster": 1
+    },
+    {
+      "recency": 141,
+      "frequency": 2,
+      "monetary": 160.35,
+      "cluster": 1
+    },
+    {
+      "recency": 128,
+      "frequency": 4,
+      "monetary": 740.94,
+      "cluster": 1
+    },
+    {
+      "recency": 172,
+      "frequency": 1,
+      "monetary": 290.36,
+      "cluster": 1
+    },
+    {
+      "recency": 172,
+      "frequency": 1,
+      "monetary": 475.86,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 2,
+      "monetary": 511.35,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 3,
+      "monetary": 1259.43,
+      "cluster": 0
+    },
+    {
+      "recency": 2,
+      "frequency": 2,
+      "monetary": 490.33,
+      "cluster": 0
+    },
+    {
+      "recency": 242,
+      "frequency": 1,
+      "monetary": 246.04,
+      "cluster": 1
+    },
+    {
+      "recency": 304,
+      "frequency": 1,
+      "monetary": 84.3,
+      "cluster": 1
+    },
+    {
+      "recency": 33,
+      "frequency": 1,
+      "monetary": 151.04,
+      "cluster": 1
+    },
+    {
+      "recency": 88,
+      "frequency": 2,
+      "monetary": 758.92,
+      "cluster": 1
+    },
+    {
+      "recency": 159,
+      "frequency": 1,
+      "monetary": 289.96,
+      "cluster": 1
+    },
+    {
+      "recency": 64,
+      "frequency": 1,
+      "monetary": 1714.96,
+      "cluster": 1
+    },
+    {
+      "recency": 120,
+      "frequency": 4,
+      "monetary": 1340.7,
+      "cluster": 1
+    },
+    {
+      "recency": 365,
+      "frequency": 1,
+      "monetary": 458.92,
+      "cluster": 1
+    },
+    {
+      "recency": 68,
+      "frequency": 1,
+      "monetary": 426.63,
+      "cluster": 1
+    },
+    {
+      "recency": 139,
+      "frequency": 3,
+      "monetary": 4599.42,
+      "cluster": 0
+    },
+    {
+      "recency": 149,
+      "frequency": 2,
+      "monetary": 2209.85,
+      "cluster": 1
+    },
+    {
+      "recency": 134,
+      "frequency": 3,
+      "monetary": 1390.5,
+      "cluster": 1
+    },
+    {
+      "recency": 164,
+      "frequency": 4,
+      "monetary": 1594.23,
+      "cluster": 1
+    },
+    {
+      "recency": 66,
+      "frequency": 3,
+      "monetary": 414.04,
+      "cluster": 1
+    },
+    {
+      "recency": 319,
+      "frequency": 1,
+      "monetary": 106.83,
+      "cluster": 1
+    },
+    {
+      "recency": 46,
+      "frequency": 3,
+      "monetary": 335.03,
+      "cluster": 1
+    },
+    {
+      "recency": 220,
+      "frequency": 1,
+      "monetary": 203.87,
+      "cluster": 1
+    },
+    {
+      "recency": 312,
+      "frequency": 1,
+      "monetary": 35.8,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 11,
+      "monetary": 4196.01,
+      "cluster": 0
+    },
+    {
+      "recency": 214,
+      "frequency": 1,
+      "monetary": 426.6,
+      "cluster": 1
+    },
+    {
+      "recency": 228,
+      "frequency": 2,
+      "monetary": 632.07,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 10,
+      "monetary": 1863.76,
+      "cluster": 0
+    },
+    {
+      "recency": 96,
+      "frequency": 6,
+      "monetary": 3100.09,
+      "cluster": 0
+    },
+    {
+      "recency": 26,
+      "frequency": 1,
+      "monetary": 394.38,
+      "cluster": 1
+    },
+    {
+      "recency": 20,
+      "frequency": 6,
+      "monetary": 4147.96,
+      "cluster": 0
+    },
+    {
+      "recency": 47,
+      "frequency": 2,
+      "monetary": 1021.48,
+      "cluster": 1
+    },
+    {
+      "recency": 68,
+      "frequency": 2,
+      "monetary": 1269.1,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 1,
+      "monetary": 166.08,
+      "cluster": 1
+    },
+    {
+      "recency": 202,
+      "frequency": 2,
+      "monetary": 218.25,
+      "cluster": 1
+    },
+    {
+      "recency": 1,
+      "frequency": 7,
+      "monetary": 2092.32,
+      "cluster": 0
+    },
+    {
+      "recency": 51,
+      "frequency": 2,
+      "monetary": 173.16,
+      "cluster": 1
+    },
+    {
+      "recency": 19,
+      "frequency": 1,
+      "monetary": 297.0,
+      "cluster": 1
+    },
+    {
+      "recency": 188,
+      "frequency": 2,
+      "monetary": 729.54,
+      "cluster": 1
+    },
+    {
+      "recency": 41,
+      "frequency": 2,
+      "monetary": 920.1,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 1,
+      "monetary": 329.36,
+      "cluster": 1
+    },
+    {
+      "recency": 258,
+      "frequency": 2,
+      "monetary": 453.0,
+      "cluster": 1
+    },
+    {
+      "recency": 212,
+      "frequency": 3,
+      "monetary": 816.73,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 7,
+      "monetary": 1926.65,
+      "cluster": 0
+    },
+    {
+      "recency": 23,
+      "frequency": 1,
+      "monetary": 151.5,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 4,
+      "monetary": 414.76,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 9,
+      "monetary": 4642.57,
+      "cluster": 0
+    },
+    {
+      "recency": 19,
+      "frequency": 1,
+      "monetary": 178.26,
+      "cluster": 1
+    },
+    {
+      "recency": 65,
+      "frequency": 1,
+      "monetary": 312.98,
+      "cluster": 1
+    },
+    {
+      "recency": 25,
+      "frequency": 8,
+      "monetary": 2527.92,
+      "cluster": 0
+    },
+    {
+      "recency": 178,
+      "frequency": 2,
+      "monetary": 833.78,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 13,
+      "monetary": 9785.97,
+      "cluster": 0
+    },
+    {
+      "recency": 8,
+      "frequency": 2,
+      "monetary": 3192.54,
+      "cluster": 0
+    },
+    {
+      "recency": 155,
+      "frequency": 2,
+      "monetary": 315.06,
+      "cluster": 1
+    },
+    {
+      "recency": 25,
+      "frequency": 1,
+      "monetary": 598.73,
+      "cluster": 1
+    },
+    {
+      "recency": 333,
+      "frequency": 1,
+      "monetary": 110.95,
+      "cluster": 1
+    },
+    {
+      "recency": 59,
+      "frequency": 9,
+      "monetary": 2332.15,
+      "cluster": 0
+    },
+    {
+      "recency": 73,
+      "frequency": 2,
+      "monetary": 225.58,
+      "cluster": 1
+    },
+    {
+      "recency": 367,
+      "frequency": 1,
+      "monetary": 403.25,
+      "cluster": 1
+    },
+    {
+      "recency": 310,
+      "frequency": 1,
+      "monetary": 475.37,
+      "cluster": 1
+    },
+    {
+      "recency": 65,
+      "frequency": 2,
+      "monetary": 272.07,
+      "cluster": 1
+    },
+    {
+      "recency": 261,
+      "frequency": 1,
+      "monetary": 409.57,
+      "cluster": 1
+    },
+    {
+      "recency": 158,
+      "frequency": 2,
+      "monetary": 1019.52,
+      "cluster": 1
+    },
+    {
+      "recency": 352,
+      "frequency": 1,
+      "monetary": 300.42,
+      "cluster": 1
+    },
+    {
+      "recency": 289,
+      "frequency": 1,
+      "monetary": 145.92,
+      "cluster": 1
+    },
+    {
+      "recency": 104,
+      "frequency": 8,
+      "monetary": 1852.67,
+      "cluster": 0
+    },
+    {
+      "recency": 3,
+      "frequency": 4,
+      "monetary": 2291.19,
+      "cluster": 0
+    },
+    {
+      "recency": 25,
+      "frequency": 2,
+      "monetary": 578.9,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 4,
+      "monetary": 874.59,
+      "cluster": 0
+    },
+    {
+      "recency": 18,
+      "frequency": 9,
+      "monetary": 1540.42,
+      "cluster": 0
+    },
+    {
+      "recency": 22,
+      "frequency": 12,
+      "monetary": 1927.32,
+      "cluster": 0
+    },
+    {
+      "recency": 208,
+      "frequency": 1,
+      "monetary": 369.2,
+      "cluster": 1
+    },
+    {
+      "recency": 16,
+      "frequency": 3,
+      "monetary": 4188.0,
+      "cluster": 0
+    },
+    {
+      "recency": 367,
+      "frequency": 1,
+      "monetary": 145.93,
+      "cluster": 1
+    },
+    {
+      "recency": 26,
+      "frequency": 1,
+      "monetary": 161.64,
+      "cluster": 1
+    },
+    {
+      "recency": 193,
+      "frequency": 1,
+      "monetary": 457.34,
+      "cluster": 1
+    },
+    {
+      "recency": 31,
+      "frequency": 4,
+      "monetary": 1824.37,
+      "cluster": 0
+    },
+    {
+      "recency": 27,
+      "frequency": 14,
+      "monetary": 1964.3,
+      "cluster": 0
+    },
+    {
+      "recency": 30,
+      "frequency": 1,
+      "monetary": 363.2,
+      "cluster": 1
+    },
+    {
+      "recency": 120,
+      "frequency": 2,
+      "monetary": 712.29,
+      "cluster": 1
+    },
+    {
+      "recency": 30,
+      "frequency": 3,
+      "monetary": 1567.48,
+      "cluster": 0
+    },
+    {
+      "recency": 314,
+      "frequency": 1,
+      "monetary": 112.75,
+      "cluster": 1
+    },
+    {
+      "recency": 134,
+      "frequency": 1,
+      "monetary": 76.5,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 8,
+      "monetary": 716.0,
+      "cluster": 0
+    },
+    {
+      "recency": 31,
+      "frequency": 8,
+      "monetary": 5891.61,
+      "cluster": 0
+    },
+    {
+      "recency": 101,
+      "frequency": 3,
+      "monetary": 1200.62,
+      "cluster": 1
+    },
+    {
+      "recency": 30,
+      "frequency": 3,
+      "monetary": 981.18,
+      "cluster": 0
+    },
+    {
+      "recency": 4,
+      "frequency": 2,
+      "monetary": 606.91,
+      "cluster": 0
+    },
+    {
+      "recency": 13,
+      "frequency": 10,
+      "monetary": 3957.43,
+      "cluster": 0
+    },
+    {
+      "recency": 64,
+      "frequency": 1,
+      "monetary": 6.2,
+      "cluster": 1
+    },
+    {
+      "recency": 253,
+      "frequency": 1,
+      "monetary": 257.23,
+      "cluster": 1
+    },
+    {
+      "recency": 164,
+      "frequency": 12,
+      "monetary": 5719.82,
+      "cluster": 0
+    },
+    {
+      "recency": 30,
+      "frequency": 10,
+      "monetary": 2712.91,
+      "cluster": 0
+    },
+    {
+      "recency": 19,
+      "frequency": 2,
+      "monetary": 1189.59,
+      "cluster": 0
+    },
+    {
+      "recency": 12,
+      "frequency": 2,
+      "monetary": 222.4,
+      "cluster": 1
+    },
+    {
+      "recency": 26,
+      "frequency": 3,
+      "monetary": 1013.26,
+      "cluster": 0
+    },
+    {
+      "recency": 73,
+      "frequency": 2,
+      "monetary": 283.47,
+      "cluster": 1
+    },
+    {
+      "recency": 69,
+      "frequency": 1,
+      "monetary": 270.8,
+      "cluster": 1
+    },
+    {
+      "recency": 162,
+      "frequency": 4,
+      "monetary": 225.26,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 9,
+      "monetary": 2993.1,
+      "cluster": 0
+    },
+    {
+      "recency": 163,
+      "frequency": 3,
+      "monetary": 1516.24,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 22,
+      "monetary": 8347.2,
+      "cluster": 0
+    },
+    {
+      "recency": 13,
+      "frequency": 4,
+      "monetary": 2861.55,
+      "cluster": 0
+    },
+    {
+      "recency": 186,
+      "frequency": 2,
+      "monetary": 152.4,
+      "cluster": 1
+    },
+    {
+      "recency": 108,
+      "frequency": 1,
+      "monetary": 534.31,
+      "cluster": 1
+    },
+    {
+      "recency": 17,
+      "frequency": 7,
+      "monetary": 2064.95,
+      "cluster": 0
+    },
+    {
+      "recency": 67,
+      "frequency": 2,
+      "monetary": 466.73,
+      "cluster": 1
+    },
+    {
+      "recency": 47,
+      "frequency": 4,
+      "monetary": 1048.28,
+      "cluster": 0
+    },
+    {
+      "recency": 6,
+      "frequency": 2,
+      "monetary": 163.62,
+      "cluster": 1
+    },
+    {
+      "recency": 244,
+      "frequency": 1,
+      "monetary": 560.67,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 18,
+      "monetary": 6680.11,
+      "cluster": 0
+    },
+    {
+      "recency": 22,
+      "frequency": 4,
+      "monetary": 2724.81,
+      "cluster": 0
+    },
+    {
+      "recency": 286,
+      "frequency": 1,
+      "monetary": 65.13,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 1,
+      "monetary": 353.27,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 4,
+      "monetary": 1258.08,
+      "cluster": 0
+    },
+    {
+      "recency": 141,
+      "frequency": 3,
+      "monetary": 207.74,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 32,
+      "monetary": 4124.69,
+      "cluster": 0
+    },
+    {
+      "recency": 16,
+      "frequency": 2,
+      "monetary": 500.42,
+      "cluster": 1
+    },
+    {
+      "recency": 25,
+      "frequency": 4,
+      "monetary": 867.38,
+      "cluster": 0
+    },
+    {
+      "recency": 54,
+      "frequency": 4,
+      "monetary": 1420.2,
+      "cluster": 0
+    },
+    {
+      "recency": 4,
+      "frequency": 2,
+      "monetary": 399.19,
+      "cluster": 0
+    },
+    {
+      "recency": 204,
+      "frequency": 2,
+      "monetary": 172.29,
+      "cluster": 1
+    },
+    {
+      "recency": 177,
+      "frequency": 1,
+      "monetary": 189.5,
+      "cluster": 1
+    },
+    {
+      "recency": 16,
+      "frequency": 5,
+      "monetary": 1427.57,
+      "cluster": 0
+    },
+    {
+      "recency": 23,
+      "frequency": 2,
+      "monetary": 486.69,
+      "cluster": 1
+    },
+    {
+      "recency": 80,
+      "frequency": 2,
+      "monetary": 7829.89,
+      "cluster": 0
+    },
+    {
+      "recency": 10,
+      "frequency": 37,
+      "monetary": 16587.09,
+      "cluster": 0
+    },
+    {
+      "recency": 2,
+      "frequency": 13,
+      "monetary": 4684.76,
+      "cluster": 0
+    },
+    {
+      "recency": 125,
+      "frequency": 6,
+      "monetary": 1175.38,
+      "cluster": 0
+    },
+    {
+      "recency": 52,
+      "frequency": 1,
+      "monetary": 480.38,
+      "cluster": 1
+    },
+    {
+      "recency": 155,
+      "frequency": 2,
+      "monetary": 333.97,
+      "cluster": 1
+    },
+    {
+      "recency": 76,
+      "frequency": 2,
+      "monetary": 621.29,
+      "cluster": 1
+    },
+    {
+      "recency": 44,
+      "frequency": 7,
+      "monetary": 4582.64,
+      "cluster": 0
+    },
+    {
+      "recency": 12,
+      "frequency": 3,
+      "monetary": 849.06,
+      "cluster": 0
+    },
+    {
+      "recency": 75,
+      "frequency": 3,
+      "monetary": 1226.88,
+      "cluster": 1
+    },
+    {
+      "recency": 373,
+      "frequency": 1,
+      "monetary": 38.1,
+      "cluster": 1
+    },
+    {
+      "recency": 23,
+      "frequency": 11,
+      "monetary": 5655.99,
+      "cluster": 0
+    },
+    {
+      "recency": 40,
+      "frequency": 5,
+      "monetary": 2178.67,
+      "cluster": 0
+    },
+    {
+      "recency": 32,
+      "frequency": 2,
+      "monetary": 703.36,
+      "cluster": 1
+    },
+    {
+      "recency": 93,
+      "frequency": 3,
+      "monetary": 1255.0,
+      "cluster": 1
+    },
+    {
+      "recency": 264,
+      "frequency": 1,
+      "monetary": 298.11,
+      "cluster": 1
+    },
+    {
+      "recency": 29,
+      "frequency": 1,
+      "monetary": 345.82,
+      "cluster": 1
+    },
+    {
+      "recency": 305,
+      "frequency": 1,
+      "monetary": 133.35,
+      "cluster": 1
+    },
+    {
+      "recency": 59,
+      "frequency": 2,
+      "monetary": 376.64,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 41,
+      "monetary": 16225.39,
+      "cluster": 0
+    },
+    {
+      "recency": 316,
+      "frequency": 2,
+      "monetary": 1628.12,
+      "cluster": 1
+    },
+    {
+      "recency": 53,
+      "frequency": 5,
+      "monetary": 1253.36,
+      "cluster": 0
+    },
+    {
+      "recency": 45,
+      "frequency": 11,
+      "monetary": 5228.05,
+      "cluster": 0
+    },
+    {
+      "recency": 75,
+      "frequency": 1,
+      "monetary": 704.04,
+      "cluster": 1
+    },
+    {
+      "recency": 36,
+      "frequency": 5,
+      "monetary": 2062.7,
+      "cluster": 0
+    },
+    {
+      "recency": 178,
+      "frequency": 4,
+      "monetary": 675.64,
+      "cluster": 1
+    },
+    {
+      "recency": 48,
+      "frequency": 3,
+      "monetary": 380.02,
+      "cluster": 1
+    },
+    {
+      "recency": 19,
+      "frequency": 2,
+      "monetary": 971.74,
+      "cluster": 1
+    },
+    {
+      "recency": 15,
+      "frequency": 7,
+      "monetary": 1771.2,
+      "cluster": 0
+    },
+    {
+      "recency": 165,
+      "frequency": 3,
+      "monetary": 316.11,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 23,
+      "monetary": 26879.04,
+      "cluster": 0
+    },
+    {
+      "recency": 47,
+      "frequency": 1,
+      "monetary": 130.74,
+      "cluster": 1
+    },
+    {
+      "recency": 67,
+      "frequency": 2,
+      "monetary": 195.55,
+      "cluster": 1
+    },
+    {
+      "recency": 79,
+      "frequency": 2,
+      "monetary": 1013.04,
+      "cluster": 1
+    },
+    {
+      "recency": 20,
+      "frequency": 3,
+      "monetary": 1298.66,
+      "cluster": 0
+    },
+    {
+      "recency": 244,
+      "frequency": 1,
+      "monetary": 110.97,
+      "cluster": 1
+    },
+    {
+      "recency": 268,
+      "frequency": 1,
+      "monetary": 333.74,
+      "cluster": 1
+    },
+    {
+      "recency": 72,
+      "frequency": 1,
+      "monetary": 957.97,
+      "cluster": 1
+    },
+    {
+      "recency": 261,
+      "frequency": 1,
+      "monetary": 361.54,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 2,
+      "monetary": 657.16,
+      "cluster": 0
+    },
+    {
+      "recency": 373,
+      "frequency": 1,
+      "monetary": 321.79,
+      "cluster": 1
+    },
+    {
+      "recency": 44,
+      "frequency": 1,
+      "monetary": 225.12,
+      "cluster": 1
+    },
+    {
+      "recency": 233,
+      "frequency": 2,
+      "monetary": 876.42,
+      "cluster": 1
+    },
+    {
+      "recency": 139,
+      "frequency": 3,
+      "monetary": 881.07,
+      "cluster": 1
+    },
+    {
+      "recency": 78,
+      "frequency": 2,
+      "monetary": 1090.24,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 11,
+      "monetary": 4257.82,
+      "cluster": 0
+    },
+    {
+      "recency": 53,
+      "frequency": 3,
+      "monetary": 3049.88,
+      "cluster": 0
+    },
+    {
+      "recency": 11,
+      "frequency": 2,
+      "monetary": 77.4,
+      "cluster": 1
+    },
+    {
+      "recency": 324,
+      "frequency": 1,
+      "monetary": 225.6,
+      "cluster": 1
+    },
+    {
+      "recency": 72,
+      "frequency": 1,
+      "monetary": 283.55,
+      "cluster": 1
+    },
+    {
+      "recency": 19,
+      "frequency": 1,
+      "monetary": 43.2,
+      "cluster": 1
+    },
+    {
+      "recency": 186,
+      "frequency": 1,
+      "monetary": 307.72,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 4,
+      "monetary": 1281.32,
+      "cluster": 0
+    },
+    {
+      "recency": 193,
+      "frequency": 1,
+      "monetary": 324.92,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 3,
+      "monetary": 711.86,
+      "cluster": 0
+    },
+    {
+      "recency": 18,
+      "frequency": 4,
+      "monetary": 986.48,
+      "cluster": 0
+    },
+    {
+      "recency": 311,
+      "frequency": 1,
+      "monetary": 349.27,
+      "cluster": 1
+    },
+    {
+      "recency": 46,
+      "frequency": 2,
+      "monetary": 1186.35,
+      "cluster": 1
+    },
+    {
+      "recency": 10,
+      "frequency": 13,
+      "monetary": 4745.69,
+      "cluster": 0
+    },
+    {
+      "recency": 45,
+      "frequency": 2,
+      "monetary": 355.05,
+      "cluster": 1
+    },
+    {
+      "recency": 32,
+      "frequency": 10,
+      "monetary": 3237.54,
+      "cluster": 0
+    },
+    {
+      "recency": 43,
+      "frequency": 2,
+      "monetary": 770.03,
+      "cluster": 1
+    },
+    {
+      "recency": 10,
+      "frequency": 3,
+      "monetary": 553.44,
+      "cluster": 0
+    },
+    {
+      "recency": 9,
+      "frequency": 7,
+      "monetary": 2154.97,
+      "cluster": 0
+    },
+    {
+      "recency": 131,
+      "frequency": 4,
+      "monetary": 1475.81,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 3,
+      "monetary": 1384.86,
+      "cluster": 0
+    },
+    {
+      "recency": 30,
+      "frequency": 1,
+      "monetary": 91.68,
+      "cluster": 1
+    },
+    {
+      "recency": 31,
+      "frequency": 4,
+      "monetary": 1066.15,
+      "cluster": 0
+    },
+    {
+      "recency": 311,
+      "frequency": 5,
+      "monetary": 310.06,
+      "cluster": 1
+    },
+    {
+      "recency": 312,
+      "frequency": 6,
+      "monetary": 319.5,
+      "cluster": 1
+    },
+    {
+      "recency": 73,
+      "frequency": 1,
+      "monetary": 379.14,
+      "cluster": 1
+    },
+    {
+      "recency": 10,
+      "frequency": 4,
+      "monetary": 869.46,
+      "cluster": 0
+    },
+    {
+      "recency": 5,
+      "frequency": 5,
+      "monetary": 1257.68,
+      "cluster": 0
+    },
+    {
+      "recency": 157,
+      "frequency": 3,
+      "monetary": 350.82,
+      "cluster": 1
+    },
+    {
+      "recency": 150,
+      "frequency": 2,
+      "monetary": 159.85,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 6,
+      "monetary": 1122.36,
+      "cluster": 0
+    },
+    {
+      "recency": 9,
+      "frequency": 16,
+      "monetary": 3352.96,
+      "cluster": 0
+    },
+    {
+      "recency": 319,
+      "frequency": 1,
+      "monetary": 773.55,
+      "cluster": 1
+    },
+    {
+      "recency": 16,
+      "frequency": 9,
+      "monetary": 6868.29,
+      "cluster": 0
+    },
+    {
+      "recency": 41,
+      "frequency": 8,
+      "monetary": 965.16,
+      "cluster": 0
+    },
+    {
+      "recency": 22,
+      "frequency": 5,
+      "monetary": 5112.96,
+      "cluster": 0
+    },
+    {
+      "recency": 5,
+      "frequency": 1,
+      "monetary": 120.03,
+      "cluster": 1
+    },
+    {
+      "recency": 37,
+      "frequency": 2,
+      "monetary": 517.36,
+      "cluster": 1
+    },
+    {
+      "recency": 50,
+      "frequency": 3,
+      "monetary": 488.2,
+      "cluster": 1
+    },
+    {
+      "recency": 215,
+      "frequency": 1,
+      "monetary": 109.13,
+      "cluster": 1
+    },
+    {
+      "recency": 30,
+      "frequency": 7,
+      "monetary": 2272.4,
+      "cluster": 0
+    },
+    {
+      "recency": 326,
+      "frequency": 1,
+      "monetary": 440.0,
+      "cluster": 1
+    },
+    {
+      "recency": 151,
+      "frequency": 3,
+      "monetary": 2744.03,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 2,
+      "monetary": 1068.87,
+      "cluster": 0
+    },
+    {
+      "recency": 95,
+      "frequency": 3,
+      "monetary": 234.6,
+      "cluster": 1
+    },
+    {
+      "recency": 71,
+      "frequency": 2,
+      "monetary": 1631.77,
+      "cluster": 1
+    },
+    {
+      "recency": 261,
+      "frequency": 1,
+      "monetary": 602.63,
+      "cluster": 1
+    },
+    {
+      "recency": 79,
+      "frequency": 4,
+      "monetary": 1532.2,
+      "cluster": 0
+    },
+    {
+      "recency": 4,
+      "frequency": 9,
+      "monetary": 3649.1,
+      "cluster": 0
+    },
+    {
+      "recency": 30,
+      "frequency": 4,
+      "monetary": 697.55,
+      "cluster": 0
+    },
+    {
+      "recency": 29,
+      "frequency": 1,
+      "monetary": 191.04,
+      "cluster": 1
+    },
+    {
+      "recency": 263,
+      "frequency": 1,
+      "monetary": 200.16,
+      "cluster": 1
+    },
+    {
+      "recency": 66,
+      "frequency": 1,
+      "monetary": 406.53,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 4,
+      "monetary": 501.12,
+      "cluster": 0
+    },
+    {
+      "recency": 220,
+      "frequency": 3,
+      "monetary": 1008.39,
+      "cluster": 1
+    },
+    {
+      "recency": 37,
+      "frequency": 1,
+      "monetary": 524.14,
+      "cluster": 1
+    },
+    {
+      "recency": 176,
+      "frequency": 4,
+      "monetary": 1564.56,
+      "cluster": 1
+    },
+    {
+      "recency": 31,
+      "frequency": 1,
+      "monetary": 112.4,
+      "cluster": 1
+    },
+    {
+      "recency": 134,
+      "frequency": 1,
+      "monetary": 375.0,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 1,
+      "monetary": 201.78,
+      "cluster": 1
+    },
+    {
+      "recency": 271,
+      "frequency": 1,
+      "monetary": 140.54,
+      "cluster": 1
+    },
+    {
+      "recency": 93,
+      "frequency": 3,
+      "monetary": 711.41,
+      "cluster": 1
+    },
+    {
+      "recency": 23,
+      "frequency": 11,
+      "monetary": 3962.6,
+      "cluster": 0
+    },
+    {
+      "recency": 16,
+      "frequency": 2,
+      "monetary": 215.48,
+      "cluster": 1
+    },
+    {
+      "recency": 34,
+      "frequency": 4,
+      "monetary": 781.91,
+      "cluster": 0
+    },
+    {
+      "recency": 88,
+      "frequency": 7,
+      "monetary": 2005.63,
+      "cluster": 0
+    },
+    {
+      "recency": 10,
+      "frequency": 3,
+      "monetary": 1298.66,
+      "cluster": 0
+    },
+    {
+      "recency": 355,
+      "frequency": 1,
+      "monetary": 290.51,
+      "cluster": 1
+    },
+    {
+      "recency": 171,
+      "frequency": 1,
+      "monetary": 179.93,
+      "cluster": 1
+    },
+    {
+      "recency": 29,
+      "frequency": 3,
+      "monetary": 547.0,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 8,
+      "monetary": 4767.36,
+      "cluster": 0
+    },
+    {
+      "recency": 58,
+      "frequency": 4,
+      "monetary": 6310.03,
+      "cluster": 0
+    },
+    {
+      "recency": 30,
+      "frequency": 3,
+      "monetary": 1071.99,
+      "cluster": 0
+    },
+    {
+      "recency": 64,
+      "frequency": 1,
+      "monetary": 427.6,
+      "cluster": 1
+    },
+    {
+      "recency": 65,
+      "frequency": 1,
+      "monetary": 2626.3,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 11,
+      "monetary": 3586.03,
+      "cluster": 0
+    },
+    {
+      "recency": 96,
+      "frequency": 2,
+      "monetary": 686.63,
+      "cluster": 1
+    },
+    {
+      "recency": 201,
+      "frequency": 2,
+      "monetary": 300.95,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 5,
+      "monetary": 787.85,
+      "cluster": 0
+    },
+    {
+      "recency": 11,
+      "frequency": 5,
+      "monetary": 1614.31,
+      "cluster": 0
+    },
+    {
+      "recency": 226,
+      "frequency": 1,
+      "monetary": 331.18,
+      "cluster": 1
+    },
+    {
+      "recency": 199,
+      "frequency": 2,
+      "monetary": 695.61,
+      "cluster": 1
+    },
+    {
+      "recency": 65,
+      "frequency": 8,
+      "monetary": 2938.91,
+      "cluster": 0
+    },
+    {
+      "recency": 66,
+      "frequency": 1,
+      "monetary": 328.65,
+      "cluster": 1
+    },
+    {
+      "recency": 31,
+      "frequency": 6,
+      "monetary": 1456.96,
+      "cluster": 0
+    },
+    {
+      "recency": 34,
+      "frequency": 1,
+      "monetary": 230.51,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 17,
+      "monetary": 3251.79,
+      "cluster": 0
+    },
+    {
+      "recency": 319,
+      "frequency": 1,
+      "monetary": 99.5,
+      "cluster": 1
+    },
+    {
+      "recency": 117,
+      "frequency": 2,
+      "monetary": 348.91,
+      "cluster": 1
+    },
+    {
+      "recency": 52,
+      "frequency": 1,
+      "monetary": 110.8,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 2,
+      "monetary": 596.1,
+      "cluster": 1
+    },
+    {
+      "recency": 29,
+      "frequency": 2,
+      "monetary": 302.57,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 27,
+      "monetary": 16143.64,
+      "cluster": 0
+    },
+    {
+      "recency": 2,
+      "frequency": 35,
+      "monetary": 7436.93,
+      "cluster": 0
+    },
+    {
+      "recency": 61,
+      "frequency": 2,
+      "monetary": 675.69,
+      "cluster": 1
+    },
+    {
+      "recency": 334,
+      "frequency": 3,
+      "monetary": 2184.42,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 2,
+      "monetary": 757.37,
+      "cluster": 0
+    },
+    {
+      "recency": 208,
+      "frequency": 1,
+      "monetary": 463.38,
+      "cluster": 1
+    },
+    {
+      "recency": 265,
+      "frequency": 1,
+      "monetary": 267.18,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 25,
+      "monetary": 7930.54,
+      "cluster": 0
+    },
+    {
+      "recency": 124,
+      "frequency": 2,
+      "monetary": 1142.42,
+      "cluster": 1
+    },
+    {
+      "recency": 37,
+      "frequency": 3,
+      "monetary": 841.08,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 2,
+      "monetary": 955.24,
+      "cluster": 0
+    },
+    {
+      "recency": 4,
+      "frequency": 12,
+      "monetary": 1535.77,
+      "cluster": 0
+    },
+    {
+      "recency": 186,
+      "frequency": 1,
+      "monetary": 103.25,
+      "cluster": 1
+    },
+    {
+      "recency": 235,
+      "frequency": 1,
+      "monetary": 150.3,
+      "cluster": 1
+    },
+    {
+      "recency": 212,
+      "frequency": 2,
+      "monetary": 2683.82,
+      "cluster": 1
+    },
+    {
+      "recency": 121,
+      "frequency": 1,
+      "monetary": 252.1,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 4,
+      "monetary": 1286.7,
+      "cluster": 0
+    },
+    {
+      "recency": 220,
+      "frequency": 2,
+      "monetary": 610.59,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 2,
+      "monetary": 675.64,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 17,
+      "monetary": 65164.79,
+      "cluster": 0
+    },
+    {
+      "recency": 41,
+      "frequency": 5,
+      "monetary": 867.31,
+      "cluster": 0
+    },
+    {
+      "recency": 108,
+      "frequency": 5,
+      "monetary": 428.18,
+      "cluster": 1
+    },
+    {
+      "recency": 23,
+      "frequency": 3,
+      "monetary": 972.08,
+      "cluster": 0
+    },
+    {
+      "recency": 6,
+      "frequency": 5,
+      "monetary": 1019.27,
+      "cluster": 0
+    },
+    {
+      "recency": 57,
+      "frequency": 5,
+      "monetary": 1555.34,
+      "cluster": 0
+    },
+    {
+      "recency": 4,
+      "frequency": 15,
+      "monetary": 3701.44,
+      "cluster": 0
+    },
+    {
+      "recency": 58,
+      "frequency": 4,
+      "monetary": 1877.59,
+      "cluster": 0
+    },
+    {
+      "recency": 186,
+      "frequency": 2,
+      "monetary": 154.83,
+      "cluster": 1
+    },
+    {
+      "recency": 61,
+      "frequency": 1,
+      "monetary": 104.82,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 12,
+      "monetary": 1865.89,
+      "cluster": 0
+    },
+    {
+      "recency": 36,
+      "frequency": 3,
+      "monetary": 626.6,
+      "cluster": 1
+    },
+    {
+      "recency": 19,
+      "frequency": 6,
+      "monetary": 2022.81,
+      "cluster": 0
+    },
+    {
+      "recency": 30,
+      "frequency": 6,
+      "monetary": 882.24,
+      "cluster": 0
+    },
+    {
+      "recency": 30,
+      "frequency": 2,
+      "monetary": 372.22,
+      "cluster": 1
+    },
+    {
+      "recency": 25,
+      "frequency": 4,
+      "monetary": 2883.54,
+      "cluster": 0
+    },
+    {
+      "recency": 41,
+      "frequency": 2,
+      "monetary": 291.48,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 2,
+      "monetary": 178.05,
+      "cluster": 1
+    },
+    {
+      "recency": 57,
+      "frequency": 3,
+      "monetary": 1621.88,
+      "cluster": 0
+    },
+    {
+      "recency": 80,
+      "frequency": 5,
+      "monetary": 2634.26,
+      "cluster": 0
+    },
+    {
+      "recency": 93,
+      "frequency": 4,
+      "monetary": 678.25,
+      "cluster": 1
+    },
+    {
+      "recency": 117,
+      "frequency": 4,
+      "monetary": 588.13,
+      "cluster": 1
+    },
+    {
+      "recency": 374,
+      "frequency": 1,
+      "monetary": 487.75,
+      "cluster": 1
+    },
+    {
+      "recency": 6,
+      "frequency": 2,
+      "monetary": 610.52,
+      "cluster": 0
+    },
+    {
+      "recency": 58,
+      "frequency": 1,
+      "monetary": 187.83,
+      "cluster": 1
+    },
+    {
+      "recency": 149,
+      "frequency": 2,
+      "monetary": 581.23,
+      "cluster": 1
+    },
+    {
+      "recency": 43,
+      "frequency": 2,
+      "monetary": 463.46,
+      "cluster": 1
+    },
+    {
+      "recency": 79,
+      "frequency": 1,
+      "monetary": 777.2,
+      "cluster": 1
+    },
+    {
+      "recency": 362,
+      "frequency": 1,
+      "monetary": 418.92,
+      "cluster": 1
+    },
+    {
+      "recency": 39,
+      "frequency": 2,
+      "monetary": 389.27,
+      "cluster": 1
+    },
+    {
+      "recency": 27,
+      "frequency": 2,
+      "monetary": 761.74,
+      "cluster": 1
+    },
+    {
+      "recency": 36,
+      "frequency": 1,
+      "monetary": 308.94,
+      "cluster": 1
+    },
+    {
+      "recency": 53,
+      "frequency": 2,
+      "monetary": 1992.11,
+      "cluster": 1
+    },
+    {
+      "recency": 51,
+      "frequency": 1,
+      "monetary": 386.43,
+      "cluster": 1
+    },
+    {
+      "recency": 373,
+      "frequency": 1,
+      "monetary": 303.97,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 1,
+      "monetary": 223.85,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 2,
+      "monetary": 251.7,
+      "cluster": 1
+    },
+    {
+      "recency": 310,
+      "frequency": 1,
+      "monetary": 558.32,
+      "cluster": 1
+    },
+    {
+      "recency": 291,
+      "frequency": 1,
+      "monetary": 574.02,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 3,
+      "monetary": 554.85,
+      "cluster": 0
+    },
+    {
+      "recency": 139,
+      "frequency": 1,
+      "monetary": 868.49,
+      "cluster": 1
+    },
+    {
+      "recency": 59,
+      "frequency": 3,
+      "monetary": 855.45,
+      "cluster": 1
+    },
+    {
+      "recency": 148,
+      "frequency": 3,
+      "monetary": 483.73,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 18,
+      "monetary": 7324.09,
+      "cluster": 0
+    },
+    {
+      "recency": 41,
+      "frequency": 2,
+      "monetary": 1399.92,
+      "cluster": 1
+    },
+    {
+      "recency": 148,
+      "frequency": 1,
+      "monetary": 1220.77,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 2,
+      "monetary": 226.47,
+      "cluster": 1
+    },
+    {
+      "recency": 71,
+      "frequency": 1,
+      "monetary": 310.62,
+      "cluster": 1
+    },
+    {
+      "recency": 373,
+      "frequency": 1,
+      "monetary": 50.55,
+      "cluster": 1
+    },
+    {
+      "recency": 94,
+      "frequency": 4,
+      "monetary": 2106.52,
+      "cluster": 0
+    },
+    {
+      "recency": 31,
+      "frequency": 7,
+      "monetary": 2588.39,
+      "cluster": 0
+    },
+    {
+      "recency": 65,
+      "frequency": 1,
+      "monetary": 295.93,
+      "cluster": 1
+    },
+    {
+      "recency": 10,
+      "frequency": 2,
+      "monetary": 922.53,
+      "cluster": 0
+    },
+    {
+      "recency": 18,
+      "frequency": 6,
+      "monetary": 1720.3,
+      "cluster": 0
+    },
+    {
+      "recency": 107,
+      "frequency": 1,
+      "monetary": 725.64,
+      "cluster": 1
+    },
+    {
+      "recency": 10,
+      "frequency": 9,
+      "monetary": 12669.98,
+      "cluster": 0
+    },
+    {
+      "recency": 26,
+      "frequency": 2,
+      "monetary": 1247.61,
+      "cluster": 1
+    },
+    {
+      "recency": 134,
+      "frequency": 1,
+      "monetary": 358.82,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 2,
+      "monetary": 334.48,
+      "cluster": 1
+    },
+    {
+      "recency": 27,
+      "frequency": 2,
+      "monetary": 289.99,
+      "cluster": 1
+    },
+    {
+      "recency": 16,
+      "frequency": 1,
+      "monetary": 220.62,
+      "cluster": 1
+    },
+    {
+      "recency": 54,
+      "frequency": 2,
+      "monetary": 860.41,
+      "cluster": 1
+    },
+    {
+      "recency": 34,
+      "frequency": 2,
+      "monetary": 191.99,
+      "cluster": 1
+    },
+    {
+      "recency": 107,
+      "frequency": 1,
+      "monetary": 343.36,
+      "cluster": 1
+    },
+    {
+      "recency": 50,
+      "frequency": 5,
+      "monetary": 1824.23,
+      "cluster": 0
+    },
+    {
+      "recency": 374,
+      "frequency": 1,
+      "monetary": 161.0,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 25,
+      "monetary": 8109.52,
+      "cluster": 0
+    },
+    {
+      "recency": 10,
+      "frequency": 3,
+      "monetary": 1333.68,
+      "cluster": 0
+    },
+    {
+      "recency": 81,
+      "frequency": 1,
+      "monetary": 768.24,
+      "cluster": 1
+    },
+    {
+      "recency": 76,
+      "frequency": 1,
+      "monetary": 272.22,
+      "cluster": 1
+    },
+    {
+      "recency": 285,
+      "frequency": 1,
+      "monetary": 94.05,
+      "cluster": 1
+    },
+    {
+      "recency": 58,
+      "frequency": 2,
+      "monetary": 2218.02,
+      "cluster": 1
+    },
+    {
+      "recency": 66,
+      "frequency": 1,
+      "monetary": 91.85,
+      "cluster": 1
+    },
+    {
+      "recency": 75,
+      "frequency": 1,
+      "monetary": 104.35,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 6,
+      "monetary": 852.88,
+      "cluster": 0
+    },
+    {
+      "recency": 25,
+      "frequency": 3,
+      "monetary": 682.91,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 6,
+      "monetary": 1838.85,
+      "cluster": 0
+    },
+    {
+      "recency": 240,
+      "frequency": 1,
+      "monetary": 328.16,
+      "cluster": 1
+    },
+    {
+      "recency": 54,
+      "frequency": 1,
+      "monetary": 119.62,
+      "cluster": 1
+    },
+    {
+      "recency": 17,
+      "frequency": 5,
+      "monetary": 1875.86,
+      "cluster": 0
+    },
+    {
+      "recency": 212,
+      "frequency": 2,
+      "monetary": 1522.75,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 2,
+      "monetary": 293.1,
+      "cluster": 1
+    },
+    {
+      "recency": 145,
+      "frequency": 3,
+      "monetary": 1724.67,
+      "cluster": 1
+    },
+    {
+      "recency": 264,
+      "frequency": 1,
+      "monetary": 15.0,
+      "cluster": 1
+    },
+    {
+      "recency": 32,
+      "frequency": 2,
+      "monetary": 510.71,
+      "cluster": 1
+    },
+    {
+      "recency": 243,
+      "frequency": 1,
+      "monetary": 183.85,
+      "cluster": 1
+    },
+    {
+      "recency": 79,
+      "frequency": 1,
+      "monetary": 118.8,
+      "cluster": 1
+    },
+    {
+      "recency": 59,
+      "frequency": 4,
+      "monetary": 950.36,
+      "cluster": 1
+    },
+    {
+      "recency": 76,
+      "frequency": 1,
+      "monetary": 420.5,
+      "cluster": 1
+    },
+    {
+      "recency": 170,
+      "frequency": 7,
+      "monetary": 3703.29,
+      "cluster": 0
+    },
+    {
+      "recency": 12,
+      "frequency": 1,
+      "monetary": 527.2,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 2,
+      "monetary": 338.62,
+      "cluster": 1
+    },
+    {
+      "recency": 23,
+      "frequency": 1,
+      "monetary": 631.35,
+      "cluster": 1
+    },
+    {
+      "recency": 128,
+      "frequency": 3,
+      "monetary": 1009.6,
+      "cluster": 1
+    },
+    {
+      "recency": 40,
+      "frequency": 4,
+      "monetary": 1366.86,
+      "cluster": 0
+    },
+    {
+      "recency": 64,
+      "frequency": 1,
+      "monetary": 600.39,
+      "cluster": 1
+    },
+    {
+      "recency": 15,
+      "frequency": 2,
+      "monetary": 2906.85,
+      "cluster": 0
+    },
+    {
+      "recency": 5,
+      "frequency": 7,
+      "monetary": 1974.65,
+      "cluster": 0
+    },
+    {
+      "recency": 148,
+      "frequency": 2,
+      "monetary": 1063.46,
+      "cluster": 1
+    },
+    {
+      "recency": 17,
+      "frequency": 4,
+      "monetary": 5578.72,
+      "cluster": 0
+    },
+    {
+      "recency": 204,
+      "frequency": 1,
+      "monetary": 59.8,
+      "cluster": 1
+    },
+    {
+      "recency": 235,
+      "frequency": 1,
+      "monetary": 409.4,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 7,
+      "monetary": 2962.5,
+      "cluster": 0
+    },
+    {
+      "recency": 370,
+      "frequency": 2,
+      "monetary": 152.88,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 4,
+      "monetary": 808.87,
+      "cluster": 0
+    },
+    {
+      "recency": 143,
+      "frequency": 1,
+      "monetary": 451.42,
+      "cluster": 1
+    },
+    {
+      "recency": 90,
+      "frequency": 2,
+      "monetary": 584.5,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 3,
+      "monetary": 12393.7,
+      "cluster": 0
+    },
+    {
+      "recency": 37,
+      "frequency": 2,
+      "monetary": 195.15,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 15,
+      "monetary": 31906.82,
+      "cluster": 0
+    },
+    {
+      "recency": 72,
+      "frequency": 3,
+      "monetary": 498.95,
+      "cluster": 1
+    },
+    {
+      "recency": 76,
+      "frequency": 1,
+      "monetary": 329.34,
+      "cluster": 1
+    },
+    {
+      "recency": 65,
+      "frequency": 1,
+      "monetary": 428.89,
+      "cluster": 1
+    },
+    {
+      "recency": 165,
+      "frequency": 2,
+      "monetary": 636.51,
+      "cluster": 1
+    },
+    {
+      "recency": 198,
+      "frequency": 3,
+      "monetary": 211.77,
+      "cluster": 1
+    },
+    {
+      "recency": 41,
+      "frequency": 2,
+      "monetary": 856.84,
+      "cluster": 1
+    },
+    {
+      "recency": 96,
+      "frequency": 5,
+      "monetary": 3723.87,
+      "cluster": 0
+    },
+    {
+      "recency": 51,
+      "frequency": 6,
+      "monetary": 1885.05,
+      "cluster": 0
+    },
+    {
+      "recency": 34,
+      "frequency": 7,
+      "monetary": 1595.96,
+      "cluster": 0
+    },
+    {
+      "recency": 256,
+      "frequency": 1,
+      "monetary": 283.71,
+      "cluster": 1
+    },
+    {
+      "recency": 39,
+      "frequency": 21,
+      "monetary": 7205.33,
+      "cluster": 0
+    },
+    {
+      "recency": 11,
+      "frequency": 4,
+      "monetary": 2279.49,
+      "cluster": 0
+    },
+    {
+      "recency": 47,
+      "frequency": 2,
+      "monetary": 1312.14,
+      "cluster": 1
+    },
+    {
+      "recency": 81,
+      "frequency": 1,
+      "monetary": 168.31,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 4,
+      "monetary": 1422.4,
+      "cluster": 0
+    },
+    {
+      "recency": 43,
+      "frequency": 2,
+      "monetary": 372.8,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 9,
+      "monetary": 7044.68,
+      "cluster": 0
+    },
+    {
+      "recency": 82,
+      "frequency": 1,
+      "monetary": 358.0,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 4,
+      "monetary": 781.78,
+      "cluster": 0
+    },
+    {
+      "recency": 173,
+      "frequency": 1,
+      "monetary": 323.03,
+      "cluster": 1
+    },
+    {
+      "recency": 307,
+      "frequency": 1,
+      "monetary": 131.9,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 5,
+      "monetary": 1314.81,
+      "cluster": 0
+    },
+    {
+      "recency": 129,
+      "frequency": 1,
+      "monetary": 594.0,
+      "cluster": 1
+    },
+    {
+      "recency": 61,
+      "frequency": 3,
+      "monetary": 2854.84,
+      "cluster": 0
+    },
+    {
+      "recency": 9,
+      "frequency": 6,
+      "monetary": 1793.06,
+      "cluster": 0
+    },
+    {
+      "recency": 31,
+      "frequency": 1,
+      "monetary": 175.92,
+      "cluster": 1
+    },
+    {
+      "recency": 321,
+      "frequency": 1,
+      "monetary": 265.85,
+      "cluster": 1
+    },
+    {
+      "recency": 19,
+      "frequency": 2,
+      "monetary": 496.06,
+      "cluster": 1
+    },
+    {
+      "recency": 174,
+      "frequency": 2,
+      "monetary": 289.36,
+      "cluster": 1
+    },
+    {
+      "recency": 106,
+      "frequency": 3,
+      "monetary": 749.78,
+      "cluster": 1
+    },
+    {
+      "recency": 174,
+      "frequency": 1,
+      "monetary": 134.1,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 5,
+      "monetary": 1845.31,
+      "cluster": 0
+    },
+    {
+      "recency": 72,
+      "frequency": 3,
+      "monetary": 668.43,
+      "cluster": 1
+    },
+    {
+      "recency": 20,
+      "frequency": 2,
+      "monetary": 424.89,
+      "cluster": 1
+    },
+    {
+      "recency": 10,
+      "frequency": 8,
+      "monetary": 3023.08,
+      "cluster": 0
+    },
+    {
+      "recency": 4,
+      "frequency": 18,
+      "monetary": 5006.77,
+      "cluster": 0
+    },
+    {
+      "recency": 40,
+      "frequency": 8,
+      "monetary": 7330.8,
+      "cluster": 0
+    },
+    {
+      "recency": 191,
+      "frequency": 1,
+      "monetary": 119.93,
+      "cluster": 1
+    },
+    {
+      "recency": 23,
+      "frequency": 7,
+      "monetary": 2915.15,
+      "cluster": 0
+    },
+    {
+      "recency": 5,
+      "frequency": 6,
+      "monetary": 1843.75,
+      "cluster": 0
+    },
+    {
+      "recency": 52,
+      "frequency": 7,
+      "monetary": 21279.29,
+      "cluster": 0
+    },
+    {
+      "recency": 156,
+      "frequency": 2,
+      "monetary": 121.0,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 6,
+      "monetary": 2322.4,
+      "cluster": 0
+    },
+    {
+      "recency": 37,
+      "frequency": 1,
+      "monetary": 151.05,
+      "cluster": 1
+    },
+    {
+      "recency": 26,
+      "frequency": 1,
+      "monetary": 332.66,
+      "cluster": 1
+    },
+    {
+      "recency": 10,
+      "frequency": 3,
+      "monetary": 524.88,
+      "cluster": 0
+    },
+    {
+      "recency": 272,
+      "frequency": 1,
+      "monetary": 285.33,
+      "cluster": 1
+    },
+    {
+      "recency": 89,
+      "frequency": 3,
+      "monetary": 2398.86,
+      "cluster": 0
+    },
+    {
+      "recency": 50,
+      "frequency": 2,
+      "monetary": 1212.84,
+      "cluster": 1
+    },
+    {
+      "recency": 183,
+      "frequency": 3,
+      "monetary": 39916.5,
+      "cluster": 0
+    },
+    {
+      "recency": 185,
+      "frequency": 1,
+      "monetary": 320.58,
+      "cluster": 1
+    },
+    {
+      "recency": 205,
+      "frequency": 1,
+      "monetary": 89.0,
+      "cluster": 1
+    },
+    {
+      "recency": 6,
+      "frequency": 2,
+      "monetary": 664.11,
+      "cluster": 0
+    },
+    {
+      "recency": 5,
+      "frequency": 5,
+      "monetary": 2483.63,
+      "cluster": 0
+    },
+    {
+      "recency": 33,
+      "frequency": 3,
+      "monetary": 2195.1,
+      "cluster": 0
+    },
+    {
+      "recency": 243,
+      "frequency": 1,
+      "monetary": 309.52,
+      "cluster": 1
+    },
+    {
+      "recency": 20,
+      "frequency": 4,
+      "monetary": 1879.05,
+      "cluster": 0
+    },
+    {
+      "recency": 37,
+      "frequency": 6,
+      "monetary": 2248.56,
+      "cluster": 0
+    },
+    {
+      "recency": 20,
+      "frequency": 3,
+      "monetary": 347.08,
+      "cluster": 1
+    },
+    {
+      "recency": 185,
+      "frequency": 3,
+      "monetary": 199.15,
+      "cluster": 1
+    },
+    {
+      "recency": 40,
+      "frequency": 1,
+      "monetary": 214.9,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 2,
+      "monetary": 2199.31,
+      "cluster": 0
+    },
+    {
+      "recency": 313,
+      "frequency": 1,
+      "monetary": 494.64,
+      "cluster": 1
+    },
+    {
+      "recency": 289,
+      "frequency": 1,
+      "monetary": 363.65,
+      "cluster": 1
+    },
+    {
+      "recency": 34,
+      "frequency": 1,
+      "monetary": 361.96,
+      "cluster": 1
+    },
+    {
+      "recency": 31,
+      "frequency": 2,
+      "monetary": 890.34,
+      "cluster": 1
+    },
+    {
+      "recency": 10,
+      "frequency": 11,
+      "monetary": 5010.28,
+      "cluster": 0
+    },
+    {
+      "recency": 15,
+      "frequency": 3,
+      "monetary": 1339.41,
+      "cluster": 0
+    },
+    {
+      "recency": 4,
+      "frequency": 1,
+      "monetary": 168.63,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 24,
+      "monetary": 6424.09,
+      "cluster": 0
+    },
+    {
+      "recency": 76,
+      "frequency": 4,
+      "monetary": 924.85,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 7,
+      "monetary": 1461.14,
+      "cluster": 0
+    },
+    {
+      "recency": 45,
+      "frequency": 3,
+      "monetary": 573.22,
+      "cluster": 1
+    },
+    {
+      "recency": 36,
+      "frequency": 1,
+      "monetary": 71.66,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 1,
+      "monetary": 245.1,
+      "cluster": 1
+    },
+    {
+      "recency": 97,
+      "frequency": 3,
+      "monetary": 1149.02,
+      "cluster": 1
+    },
+    {
+      "recency": 250,
+      "frequency": 1,
+      "monetary": 12.75,
+      "cluster": 1
+    },
+    {
+      "recency": 118,
+      "frequency": 1,
+      "monetary": 640.14,
+      "cluster": 1
+    },
+    {
+      "recency": 67,
+      "frequency": 1,
+      "monetary": 111.68,
+      "cluster": 1
+    },
+    {
+      "recency": 275,
+      "frequency": 1,
+      "monetary": 101.34,
+      "cluster": 1
+    },
+    {
+      "recency": 17,
+      "frequency": 5,
+      "monetary": 1214.72,
+      "cluster": 0
+    },
+    {
+      "recency": 360,
+      "frequency": 1,
+      "monetary": 201.2,
+      "cluster": 1
+    },
+    {
+      "recency": 214,
+      "frequency": 3,
+      "monetary": 623.28,
+      "cluster": 1
+    },
+    {
+      "recency": 92,
+      "frequency": 2,
+      "monetary": 307.48,
+      "cluster": 1
+    },
+    {
+      "recency": 303,
+      "frequency": 2,
+      "monetary": 167.25,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 2,
+      "monetary": 694.05,
+      "cluster": 0
+    },
+    {
+      "recency": 25,
+      "frequency": 4,
+      "monetary": 974.54,
+      "cluster": 0
+    },
+    {
+      "recency": 38,
+      "frequency": 4,
+      "monetary": 2560.0,
+      "cluster": 0
+    },
+    {
+      "recency": 53,
+      "frequency": 3,
+      "monetary": 804.3,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 7,
+      "monetary": 3515.68,
+      "cluster": 0
+    },
+    {
+      "recency": 57,
+      "frequency": 5,
+      "monetary": 1520.58,
+      "cluster": 0
+    },
+    {
+      "recency": 54,
+      "frequency": 1,
+      "monetary": 351.13,
+      "cluster": 1
+    },
+    {
+      "recency": 23,
+      "frequency": 1,
+      "monetary": 149.29,
+      "cluster": 1
+    },
+    {
+      "recency": 85,
+      "frequency": 2,
+      "monetary": 380.64,
+      "cluster": 1
+    },
+    {
+      "recency": 10,
+      "frequency": 4,
+      "monetary": 2183.54,
+      "cluster": 0
+    },
+    {
+      "recency": 284,
+      "frequency": 1,
+      "monetary": 133.25,
+      "cluster": 1
+    },
+    {
+      "recency": 58,
+      "frequency": 1,
+      "monetary": 279.94,
+      "cluster": 1
+    },
+    {
+      "recency": 17,
+      "frequency": 5,
+      "monetary": 1521.04,
+      "cluster": 0
+    },
+    {
+      "recency": 134,
+      "frequency": 1,
+      "monetary": 115.8,
+      "cluster": 1
+    },
+    {
+      "recency": 13,
+      "frequency": 1,
+      "monetary": 251.03,
+      "cluster": 1
+    },
+    {
+      "recency": 197,
+      "frequency": 3,
+      "monetary": 437.7,
+      "cluster": 1
+    },
+    {
+      "recency": 205,
+      "frequency": 2,
+      "monetary": 216.5,
+      "cluster": 1
+    },
+    {
+      "recency": 374,
+      "frequency": 1,
+      "monetary": 115.65,
+      "cluster": 1
+    },
+    {
+      "recency": 60,
+      "frequency": 2,
+      "monetary": 384.81,
+      "cluster": 1
+    },
+    {
+      "recency": 135,
+      "frequency": 1,
+      "monetary": 244.8,
+      "cluster": 1
+    },
+    {
+      "recency": 3,
+      "frequency": 8,
+      "monetary": 10416.98,
+      "cluster": 0
+    },
+    {
+      "recency": 157,
+      "frequency": 11,
+      "monetary": 2592.25,
+      "cluster": 0
+    },
+    {
+      "recency": 30,
+      "frequency": 5,
+      "monetary": 3928.05,
+      "cluster": 0
+    },
+    {
+      "recency": 169,
+      "frequency": 3,
+      "monetary": 388.5,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 8,
+      "monetary": 3974.75,
+      "cluster": 0
+    },
+    {
+      "recency": 19,
+      "frequency": 3,
+      "monetary": 1545.41,
+      "cluster": 0
+    },
+    {
+      "recency": 55,
+      "frequency": 2,
+      "monetary": 931.03,
+      "cluster": 1
+    },
+    {
+      "recency": 67,
+      "frequency": 1,
+      "monetary": 449.12,
+      "cluster": 1
+    },
+    {
+      "recency": 66,
+      "frequency": 2,
+      "monetary": 714.42,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 5,
+      "monetary": 1308.61,
+      "cluster": 0
+    },
+    {
+      "recency": 1,
+      "frequency": 20,
+      "monetary": 14034.99,
+      "cluster": 0
+    },
+    {
+      "recency": 74,
+      "frequency": 14,
+      "monetary": 1836.09,
+      "cluster": 0
+    },
+    {
+      "recency": 180,
+      "frequency": 1,
+      "monetary": 376.58,
+      "cluster": 1
+    },
+    {
+      "recency": 19,
+      "frequency": 2,
+      "monetary": 1231.5,
+      "cluster": 0
+    },
+    {
+      "recency": 368,
+      "frequency": 1,
+      "monetary": 230.4,
+      "cluster": 1
+    },
+    {
+      "recency": 79,
+      "frequency": 3,
+      "monetary": 1744.76,
+      "cluster": 1
+    },
+    {
+      "recency": 92,
+      "frequency": 1,
+      "monetary": 296.64,
+      "cluster": 1
+    },
+    {
+      "recency": 46,
+      "frequency": 3,
+      "monetary": 2043.08,
+      "cluster": 0
+    },
+    {
+      "recency": 37,
+      "frequency": 1,
+      "monetary": 436.06,
+      "cluster": 1
+    },
+    {
+      "recency": 15,
+      "frequency": 7,
+      "monetary": 3408.06,
+      "cluster": 0
+    },
+    {
+      "recency": 24,
+      "frequency": 2,
+      "monetary": 562.41,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 4,
+      "monetary": 653.19,
+      "cluster": 0
+    },
+    {
+      "recency": 61,
+      "frequency": 3,
+      "monetary": 357.77,
+      "cluster": 1
+    },
+    {
+      "recency": 24,
+      "frequency": 2,
+      "monetary": 397.68,
+      "cluster": 1
+    },
+    {
+      "recency": 93,
+      "frequency": 9,
+      "monetary": 1100.27,
+      "cluster": 0
+    },
+    {
+      "recency": 69,
+      "frequency": 3,
+      "monetary": 824.58,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 8,
+      "monetary": 2708.61,
+      "cluster": 0
+    },
+    {
+      "recency": 72,
+      "frequency": 1,
+      "monetary": 216.85,
+      "cluster": 1
+    },
+    {
+      "recency": 185,
+      "frequency": 1,
+      "monetary": 298.48,
+      "cluster": 1
+    },
+    {
+      "recency": 72,
+      "frequency": 3,
+      "monetary": 1975.35,
+      "cluster": 0
+    },
+    {
+      "recency": 2,
+      "frequency": 4,
+      "monetary": 728.02,
+      "cluster": 0
+    },
+    {
+      "recency": 327,
+      "frequency": 1,
+      "monetary": 146.85,
+      "cluster": 1
+    },
+    {
+      "recency": 363,
+      "frequency": 1,
+      "monetary": 121.05,
+      "cluster": 1
+    },
+    {
+      "recency": 254,
+      "frequency": 2,
+      "monetary": 316.25,
+      "cluster": 1
+    },
+    {
+      "recency": 31,
+      "frequency": 2,
+      "monetary": 597.91,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 6,
+      "monetary": 2662.4,
+      "cluster": 0
+    },
+    {
+      "recency": 46,
+      "frequency": 7,
+      "monetary": 10736.48,
+      "cluster": 0
+    },
+    {
+      "recency": 78,
+      "frequency": 1,
+      "monetary": 505.18,
+      "cluster": 1
+    },
+    {
+      "recency": 73,
+      "frequency": 4,
+      "monetary": 4393.63,
+      "cluster": 0
+    },
+    {
+      "recency": 288,
+      "frequency": 1,
+      "monetary": 389.5,
+      "cluster": 1
+    },
+    {
+      "recency": 114,
+      "frequency": 3,
+      "monetary": 339.44,
+      "cluster": 1
+    },
+    {
+      "recency": 18,
+      "frequency": 1,
+      "monetary": 243.55,
+      "cluster": 1
+    },
+    {
+      "recency": 243,
+      "frequency": 3,
+      "monetary": 406.08,
+      "cluster": 1
+    },
+    {
+      "recency": 25,
+      "frequency": 3,
+      "monetary": 2338.6,
+      "cluster": 0
+    },
+    {
+      "recency": 38,
+      "frequency": 4,
+      "monetary": 5732.93,
+      "cluster": 0
+    },
+    {
+      "recency": 26,
+      "frequency": 3,
+      "monetary": 331.0,
+      "cluster": 1
+    },
+    {
+      "recency": 32,
+      "frequency": 6,
+      "monetary": 3518.03,
+      "cluster": 0
+    },
+    {
+      "recency": 45,
+      "frequency": 5,
+      "monetary": 1096.32,
+      "cluster": 0
+    },
+    {
+      "recency": 17,
+      "frequency": 7,
+      "monetary": 5159.06,
+      "cluster": 0
+    },
+    {
+      "recency": 130,
+      "frequency": 1,
+      "monetary": 1595.48,
+      "cluster": 1
+    },
+    {
+      "recency": 17,
+      "frequency": 11,
+      "monetary": 4095.9,
+      "cluster": 0
+    },
+    {
+      "recency": 38,
+      "frequency": 8,
+      "monetary": 3981.36,
+      "cluster": 0
+    },
+    {
+      "recency": 178,
+      "frequency": 1,
+      "monetary": 142.92,
+      "cluster": 1
+    },
+    {
+      "recency": 12,
+      "frequency": 2,
+      "monetary": 114.34,
+      "cluster": 1
+    },
+    {
+      "recency": 373,
+      "frequency": 1,
+      "monetary": 350.06,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 10,
+      "monetary": 2367.12,
+      "cluster": 0
+    },
+    {
+      "recency": 221,
+      "frequency": 1,
+      "monetary": 134.8,
+      "cluster": 1
+    },
+    {
+      "recency": 80,
+      "frequency": 1,
+      "monetary": 1862.0,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 12,
+      "monetary": 2888.75,
+      "cluster": 0
+    },
+    {
+      "recency": 260,
+      "frequency": 1,
+      "monetary": 170.95,
+      "cluster": 1
+    },
+    {
+      "recency": 40,
+      "frequency": 2,
+      "monetary": 519.61,
+      "cluster": 1
+    },
+    {
+      "recency": 8,
+      "frequency": 6,
+      "monetary": 2686.42,
+      "cluster": 0
+    },
+    {
+      "recency": 337,
+      "frequency": 1,
+      "monetary": 135.9,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 4,
+      "monetary": 1863.47,
+      "cluster": 0
+    },
+    {
+      "recency": 39,
+      "frequency": 1,
+      "monetary": 162.8,
+      "cluster": 1
+    },
+    {
+      "recency": 20,
+      "frequency": 1,
+      "monetary": 307.09,
+      "cluster": 1
+    },
+    {
+      "recency": 22,
+      "frequency": 2,
+      "monetary": 169.55,
+      "cluster": 1
+    },
+    {
+      "recency": 11,
+      "frequency": 2,
+      "monetary": 457.5,
+      "cluster": 1
+    },
+    {
+      "recency": 79,
+      "frequency": 4,
+      "monetary": 819.29,
+      "cluster": 1
+    },
+    {
+      "recency": 59,
+      "frequency": 3,
+      "monetary": 794.64,
+      "cluster": 1
+    },
+    {
+      "recency": 41,
+      "frequency": 2,
+      "monetary": 701.57,
+      "cluster": 1
+    },
+    {
+      "recency": 262,
+      "frequency": 1,
+      "monetary": 456.9,
+      "cluster": 1
+    },
+    {
+      "recency": 29,
+      "frequency": 10,
+      "monetary": 1715.46,
+      "cluster": 0
+    },
+    {
+      "recency": 236,
+      "frequency": 3,
+      "monetary": 3010.74,
+      "cluster": 1
+    },
+    {
+      "recency": 211,
+      "frequency": 1,
+      "monetary": 1351.45,
+      "cluster": 1
+    },
+    {
+      "recency": 74,
+      "frequency": 3,
+      "monetary": 657.8,
+      "cluster": 1
+    },
+    {
+      "recency": 30,
+      "frequency": 2,
+      "monetary": 382.98,
+      "cluster": 1
+    },
+    {
+      "recency": 113,
+      "frequency": 1,
+      "monetary": 135.95,
+      "cluster": 1
+    },
+    {
+      "recency": 23,
+      "frequency": 5,
+      "monetary": 1555.32,
+      "cluster": 0
+    },
+    {
+      "recency": 85,
+      "frequency": 5,
+      "monetary": 3029.87,
+      "cluster": 0
+    },
+    {
+      "recency": 86,
+      "frequency": 3,
+      "monetary": 881.26,
+      "cluster": 1
+    },
+    {
+      "recency": 170,
+      "frequency": 1,
+      "monetary": 158.85,
+      "cluster": 1
+    },
+    {
+      "recency": 2,
+      "frequency": 5,
+      "monetary": 1123.86,
+      "cluster": 0
+    },
+    {
+      "recency": 13,
+      "frequency": 3,
+      "monetary": 946.64,
+      "cluster": 0
+    },
+    {
+      "recency": 69,
+      "frequency": 2,
+      "monetary": 567.18,
+      "cluster": 1
+    },
+    {
+      "recency": 219,
+      "frequency": 1,
+      "monetary": 185.4,
+      "cluster": 1
+    },
+    {
+      "recency": 16,
+      "frequency": 12,
+      "monetary": 10879.76,
+      "cluster": 0
+    },
+    {
+      "recency": 85,
+      "frequency": 1,
+      "monetary": 842.5,
+      "cluster": 1
+    },
+    {
+      "recency": 75,
+      "frequency": 2,
+      "monetary": 234.34,
+      "cluster": 1
+    },
+    {
+      "recency": 9,
+      "frequency": 6,
+      "monetary": 911.26,
+      "cluster": 0
+    },
+    {
+      "recency": 10,
+      "frequency": 4,
+      "monetary": 1153.62,
+      "cluster": 0
+    },
+    {
+      "recency": 10,
+      "frequency": 8,
+      "monetary": 1660.88,
+      "cluster": 0
+    },
+    {
+      "recency": 142,
+      "frequency": 1,
+      "monetary": 301.03,
+      "cluster": 1
+    },
+    {
+      "recency": 5,
+      "frequency": 4,
+      "monetary": 1293.03,
+      "cluster": 0
+    },
+    {
+      "recency": 22,
+      "frequency": 2,
+      "monetary": 287.59,
+      "cluster": 1
+    },
+    {
+      "recency": 61,
+      "frequency": 3,
+      "monetary": 554.86,
+      "cluster": 1
+    },
+    {
+      "recency": 94,
+      "frequency": 2,
+      "monetary": 128.5,
+      "cluster": 1
+    },
+    {
+      "recency": 10,
+      "frequency": 4,
+      "monetary": 3750.4,
+      "cluster": 0
+    },
+    {
+      "recency": 6,
+      "frequency": 12,
+      "monetary": 2314.13,
+      "cluster": 0
+    },
+    {
+      "recency": 17,
+      "frequency": 9,
+      "monetary": 3641.24,
+      "cluster": 0
+    },
+    {
+      "recency": 9,
+      "frequency": 46,
+      "monetary": 194390.79,
+      "cluster": 0
+    },
+    {
+      "recency": 3,
+      "frequency": 3,
+      "monetary": 666.1,
+      "cluster": 0
+    },
+    {
+      "recency": 33,
+      "frequency": 5,
+      "monetary": 1477.66,
+      "cluster": 0
+    },
+    {
+      "recency": 135,
+      "frequency": 1,
+      "monetary": 707.09,
+      "cluster": 1
+    },
+    {
+      "recency": 58,
+      "frequency": 7,
+      "monetary": 790.86,
+      "cluster": 0
+    },
+    {
+      "recency": 74,
+      "frequency": 11,
+      "monetary": 5232.23,
+      "cluster": 0
+    },
+    {
+      "recency": 174,
+      "frequency": 2,
+      "monetary": 460.59,
+      "cluster": 1
+    },
+    {
+      "recency": 52,
+      "frequency": 1,
+      "monetary": 307.78,
+      "cluster": 1
+    },
+    {
+      "recency": 155,
+      "frequency": 2,
+      "monetary": 622.85,
+      "cluster": 1
+    },
+    {
+      "recency": 4,
+      "frequency": 7,
+      "monetary": 3501.1,
+      "cluster": 0
+    },
+    {
+      "recency": 66,
+      "frequency": 1,
+      "monetary": 92.46,
+      "cluster": 1
+    },
+    {
+      "recency": 61,
+      "frequency": 4,
+      "monetary": 2404.17,
+      "cluster": 0
+    }
+  ],
+  "ranges": {
+    "recency": [
+      1.0,
+      374.0
+    ],
+    "frequency": [
+      1.0,
+      209.0
+    ],
+    "monetary": [
+      3.75,
+      280206.02
+    ]
+  }
+}
